@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hhstechgroup.com" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DYP__FL_2.0_UI" target="10" />
+      <module name="DYP_FL_2.0" target="10" />
+      <module name="DYP_FL_2.0_API" target="10" />
+      <module name="untitled" target="10" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

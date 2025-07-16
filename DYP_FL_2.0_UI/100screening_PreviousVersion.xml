@@ -1,0 +1,61 @@
+<MedversantReport id="MD123" requestedBy="HHS" creationDate="2018-04-01-06:00">
+    <Requests>
+        <Request id="312">
+            <EnrollmentData>
+                <Name mismatch="false"/>
+                <DOB mismatch="false"/>
+                <Gender mismatch="false"/>
+                <PrimaryBusinessAddress mismatch="false"/>
+                <POBoxAddress mismatch="false"/>
+                <EveryBusinessLocation mismatch="false"/>
+                <SSN mismatch="false"/>
+                <CurrentHistoricalAddress mismatch="false"/>
+                <LandWirelessNumbers mismatch="false"/>
+            </EnrollmentData>
+            <Licenses>
+                <License expired="false"/>
+                <Limitations found="false"/>
+                <Sanctions found="false"/>
+            </Licenses>
+            <Revalidation missed="false"/>
+            <Enrollment>
+                <EnrollmentTermination terminated="false"/>
+                <EnrollmentDenial denied="false"/>
+                <EnrollemtReactivation reactivated="false"/>
+            </Enrollment>
+            <AppealRights available="true"/>
+            <SiteVisits>
+                <PreEnrollment satisfied="true"/>
+                <PostEnrollment satisfied="true"/>
+            </SiteVisits>
+            <CriminalBackground>
+                <NationalCriminalHistoryRecord recordFound="false"/>
+                <NationalCriminalHistoryCharge chargeFound="false"/>
+                <FingerprintBackground recordFound="false"/>
+                <SSA recordFound="false"/>
+                <LEIE recordFound="false"/>
+                <EPLS recordFound="false"/>
+            </CriminalBackground>
+            <FederalDB>
+                <Bankrupties recordFound="false"/>
+                <Liens recordFound="false"/>
+                <Judgements recordFound="false"/>
+                <CorpOfficersVerificationAndDisclosure faild="false"/>
+                <OwnersVerificationAndDisclosure faild="false"/>
+                <RelativesVerificationAndDisclosure faild="false"/>
+            </FederalDB>
+            <NationalProviderIdentifier>
+                <NPI valid="true"/>
+                <TIN_FEIN valid="true"/>
+                <DEA valid="true"/>
+            </NationalProviderIdentifier>
+            <Screening>
+                <SpecialityCertification valid="true"/>
+                <RecidencyGroupHospital valid="true"/>
+                <ProofingAuth valid="true"/>
+            </Screening>
+            <ApplicationFee paid="true"/>
+            <TempMoratoria falls="false"/>
+        </Request>
+    </Requests>
+</MedversantReport>

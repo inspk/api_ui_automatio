@@ -1,0 +1,1009 @@
+{
+
+    "id": "5fb41cd-54d6-4bf-845c-ehf7y1066",
+    "templateId": "provider",
+    "children": [
+      {
+        "id": "e5a6a087-d277-4ca2-b615-b3f6ffb44fd4",
+        "type": "section",
+        "templateId": "833efcb1-a3ea-42e7-b3df-2dd8433c233d",
+        "fields": [
+          {
+            "id": "ad3ef140-b7c0-407c-a903-21788e75a642",
+            "templateId": "2942c652-def5-414b-b258-a694c9113d30",
+            "fields": [
+              {
+                "id": "7bd9f175-0894-40e1-b849-d6228c844a7b",
+                "templateId": "767eeebf-2063-4312-a536-6d4474c899eb"
+              }
+            ]
+          },
+          {
+            "id": "3027b6a0-4312-49fe-b8f5-f34a8c7a8012",
+            "templateId": "f64d99dc-bf9d-4fbf-bbd0-7a3cdb908899",
+            "fields": [
+              {
+                "id": "50ba31b4-f426-4c0b-b309-b0613dc50a31",
+                "templateId": "a58e2bf1-9e47-486c-b77e-ba020fcec1ac"
+              }
+            ]
+          },
+          {
+            "id": "439fb6f9-bd1c-4b4c-8043-b76118f5c5df",
+            "templateId": "e0e792cd-b340-4030-8474-4cc80ceb7524",
+            "fields": [
+              {
+                "id": "f9b2257c-7465-46b6-ac8a-48915c6af2e5",
+                "templateId": "658a432b-1521-480d-8bfc-61cf7e7ced17"
+              },
+              {
+                "id": "f2a98537-aacf-4cb2-9464-19ecf65e3ee9",
+                "templateId": "c421a8ae-9522-4574-b2ad-9d79234a428a"
+              },
+              {
+                "id": "97843c6d-a4a9-4c3a-b0e3-bee47f3e1410",
+                "templateId": "1f2b94cf-21b0-49ca-bc28-65d3385633aa"
+              },
+              {
+                "id": "b41ed5e9-bb51-4ea5-958e-5526bc9282e9",
+                "templateId": "43950b23-1d9d-478c-93db-a353f28e7e65"
+              },
+              {
+                "id": "39a37804-e892-4109-83aa-36227171f912",
+                "templateId": "634e85fe-ccf6-43da-aa6a-687ca23cdeba"
+              },
+              {
+                "id": "3ad1c48b-748e-43d8-9962-3d34359097c5",
+                "templateId": "da33a4f2-642a-4375-84a0-cffb06e9d818"
+              },
+              {
+                "id": "046859fd-93a6-4c4a-8090-cec045e249f3",
+                "templateId": "78d11fcd-e7f5-4190-a501-3dc666665cbf"
+              },
+              {
+                "id": "8076ab70-7214-4bbe-81c1-10f747a9f32f",
+                "templateId": "2fac1e35-9b4d-45a1-9ad7-6a45ac7f3d17"
+              },
+              {
+                "id": "58bd6cc6-ab9e-40eb-a1b8-2691c8da5101",
+                "templateId": "305d985b-c76d-4fa8-97ed-09fc39f1f446"
+              },
+              {
+                "id": "e6e32e4a-0c5e-4077-a422-5495c75e8bd9",
+                "templateId": "49339f8e-66f6-43a6-8835-dba1a5a326c0"
+              },
+              {
+                "id": "87ab3410-16ef-41b7-aaa7-dc565f90d7ba",
+                "templateId": "bd0a6cd4-69eb-4e6a-9d31-3cd717e0d663"
+              },
+              {
+                "id": "de7fb3ff-cc06-433d-8eb4-f9fd8d43b22f",
+                "templateId": "b22f8ed6-88df-4048-adb9-4d4e4167fe6d"
+              },
+              {
+                "id": "777963c0-8358-49d7-a5d5-6450b9133c0a",
+                "templateId": "fdb0ccc3-6f7b-4729-94ff-1de658b5b2cd"
+              },
+              {
+                "id": "04c787e7-b6ad-4faa-9388-a8e6dc5571ac",
+                "templateId": "4ad97605-0968-476b-ae31-1b4230ac68d7"
+              },
+              {
+                "id": "92bc5046-839d-430e-9a5c-8032c3e245a6",
+                "templateId": "0f5b5cb4-bc1e-4ed2-a52a-6594950bc3ce"
+              },
+              {
+                "id": "89de8dfb-cd5c-4a57-be75-b22856f9596b",
+                "templateId": "b9765971-5cbe-44ab-a76d-c2b179b4f426"
+              }
+            ]
+          },
+          {
+            "id": "acfc7667-e8e9-40ef-bdd6-fb63a011ecef",
+            "templateId": "93a4c0a5-fb94-4c54-989c-642920381442",
+            "fields": [
+              {
+                "id": "70757634-451c-4c70-acab-e4d5b6886fce",
+                "templateId": "62b447ea-5514-4b32-a842-1d1e984c0d92"
+              },
+              {
+                "id": "aa9235e5-2d49-4b7f-afe9-472b1143c2cb",
+                "templateId": "dd2fadcc-a754-452d-8dd8-331bfc6346c3"
+              },
+              {
+                "id": "38d0c162-7e5d-49e6-a27f-99f4e78d977c",
+                "templateId": "75257bb7-4176-4efd-863f-e56733e828a1"
+              },
+              {
+                "id": "c5213c8e-6f3a-4f15-8b74-7357eaf612f3",
+                "templateId": "1721f24b-b949-41df-a2e4-0fdf92ab0ef5"
+              },
+              {
+                "id": "11035983-068d-484e-8437-7c74c3644a47",
+                "templateId": "dfa59ce9-61b7-4049-8088-f61ca7b2f2f2",
+                "answer": {
+                  "value": "Individual Practice",
+                  "type": "simple"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "239be2fb-a396-4a00-9bdf-efa48ea5b9d8",
+        "type": "programParticipationSection",
+        "viewed": false
+      },
+      {
+        "id": "22c5da45-2a6a-42b5-a880-4772a0d26b73",
+        "type": "section",
+        "templateId": "95eb272d-f2e7-4685-8937-ebf64a473a10",
+        "fields": [
+          {
+            "id": "1bd465d2-6166-4ba0-993d-0e95222da09d",
+            "templateId": "1beacd8b-91e1-4665-94f8-669ef029a6fc",
+            "fields": [
+              {
+                "id": "386dd8ee-ed5b-485f-9aaa-bc27c899f41b",
+                "templateId": "07787a43-468a-47d9-a087-25d2877c26a7"
+              },
+              {
+                "id": "f044c882-9713-4cb8-81ba-f36dbb362798",
+                "templateId": "0f8d7472-8786-4026-83b6-b3e0362009c2"
+              },
+              {
+                "id": "205b1a41-039c-48c6-ac06-4114f9df4eb6",
+                "templateId": "9805e6ef-fb41-4374-937e-19c6b5dc3508"
+              },
+              {
+                "id": "5870a28e-e534-4ddd-ba9d-0a87e18a2353",
+                "templateId": "4dca14fc-dc27-4bb7-ba08-436f18f9703d"
+              },
+              {
+                "id": "e41270cf-1ade-4e39-b546-cc35852a6197",
+                "templateId": "c359794b-9ebb-4eef-a7ad-d44218562d03"
+              },
+              {
+                "id": "d761713b-8434-4890-b77b-78735362deb0",
+                "templateId": "1465e6c4-fce9-4503-9e69-c999ef6421a4"
+              },
+              {
+                "id": "0a48a641-a9cb-407e-8046-686671984430",
+                "templateId": "a773e889-e23f-4b86-bd36-a3ad9461ef35"
+              }
+            ]
+          },
+          {
+            "id": "05750b40-b307-4fb0-98d3-e7cfb29cb60e",
+            "templateId": "2c7118f5-f94a-4668-bb6d-90f4ae868f65",
+            "fields": [
+              {
+                "id": "0269f2eb-509e-411a-9dcf-d3620743fda8",
+                "templateId": "e2f64d29-758d-46b1-8494-a15d0c8737b4"
+              },
+              {
+                "id": "17c1d906-ccbc-4639-a544-d4dcb81bfee5",
+                "templateId": "1666dab9-3fe8-4470-b0c3-9eb013dd7f45"
+              }
+            ]
+          },
+          {
+            "id": "05b12f9b-8fcc-4992-980e-c9ce16839250",
+            "templateId": "07dcb87e-0cb2-4b83-bc41-492c199f2691",
+            "fields": [
+              {
+                "id": "ab398c40-6b6e-4226-81f5-b1944646a92b",
+                "templateId": "0fff114a-dc8b-4388-9129-ecc8041e4ff5"
+              },
+              {
+                "id": "0f2e2e1d-62b8-498a-beac-c21e890be6e5",
+                "templateId": "576862a8-1971-4241-9a48-01a3d749e499"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bfd34f52-17fe-4b88-996e-2a012ec088ce",
+        "type": "section",
+        "templateId": "dbf25596-18d9-438c-b90d-79851688199b",
+        "fields": [
+          {
+            "id": "8b98b6b4-d3a2-4f50-b7a1-3267b8f0dcfe",
+            "templateId": "4bb45909-fa3a-4f5a-a3b7-fb0d80c4a8a9",
+            "fields": [
+              {
+                "id": "c0eacc15-174e-458f-acca-85d609df9879",
+                "templateId": "f7d00451-f494-47b0-961d-bc9a8e0e3ac0"
+              }
+            ]
+          },
+          {
+            "id": "f738b0c0-e603-4819-a5be-ad32f320b51b",
+            "templateId": "ec7f6467-3d9a-44f4-b01b-7a43852fc928",
+            "fields": [
+              {
+                "id": "a3071459-8276-4ed6-ac94-990814e1d22d",
+                "templateId": "f8d64ad9-798f-4ecc-838d-d50d38ffdee3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b7e2faa3-5120-4e2c-9759-826384f71091",
+        "type": "section",
+        "templateId": "0a49356a-a7ad-48e0-b4f0-b149913f22c4",
+        "fields": [
+          {
+            "id": "bae384e8-8d2e-4bb1-8e3c-47e113edfe3a",
+            "templateId": "4db6aed8-8e0a-4094-a2fc-975213f0c5a8",
+            "fields": [
+              {
+                "id": "f3a3d364-c52c-4f47-8f1a-bd6e9009d9fd",
+                "templateId": "3815770d-f459-4656-a4f9-06254ecdac7f"
+              },
+              {
+                "id": "e6fcf991-dd8e-4554-96ef-6e8df01a55be",
+                "templateId": "a08a9f9a-7431-4366-8732-c541f41a99fb"
+              },
+              {
+                "id": "f02b138a-811d-479e-b0a9-03dc9f5b407c",
+                "templateId": "ff760ffc-881f-434e-b1fc-81d5ef6cc2ba"
+              },
+              {
+                "id": "eeefc682-d968-49c0-9bec-85fd6a0068da",
+                "templateId": "d2e19516-7a2d-4598-a8df-04d34d680ef5"
+              },
+              {
+                "id": "93fe392e-bc4a-410c-9818-d1c5c6e53a6c",
+                "templateId": "13936c26-32d5-4d98-84c0-d9aaf41f12dd"
+              },
+              {
+                "id": "cb4e80a7-bbb2-493c-8a01-e69c23c167ba",
+                "templateId": "52493179-dc3a-4be8-a8d8-b1daf8606c5c"
+              },
+              {
+                "id": "55424e8d-c2e7-4f18-9d8e-33dac05ebec5",
+                "templateId": "98a537aa-60d4-4b4f-b07c-a7c9853b7e3a"
+              },
+              {
+                "id": "4acdec9d-0219-431d-b7e6-a1dfda26c274",
+                "templateId": "a5c66eb8-d88e-4f08-950e-cd3971c738b0"
+              },
+              {
+                "id": "26c9de47-3d65-4682-8f6c-33808af0531e",
+                "templateId": "62f658b5-b1fd-4096-963d-43d5c137780f"
+              },
+              {
+                "id": "b2b09e37-af10-41aa-a2df-a6d280a7bf9a",
+                "templateId": "b136d6e0-1c12-485f-bd24-41f5a6c1e6c4"
+              }
+            ]
+          },
+          {
+            "id": "a36e4827-68ac-4135-8748-f07e7760a4eb",
+            "templateId": "3c30759a-e7fa-404f-9385-0fed2db8b4eb",
+            "fields": [
+              {
+                "id": "3fd401bf-abd9-4a0a-b1b7-cb2459efc58e",
+                "templateId": "b975505b-2ec4-4470-8b8f-402cf2f69dfd"
+              },
+              {
+                "id": "26030dac-cf73-4ec4-b925-972d8e057548",
+                "templateId": "0503e4ae-b35a-49d2-a06c-b737e92344ef"
+              },
+              {
+                "id": "95bf9d29-c5cf-419b-b35c-ae0ce07696cb",
+                "templateId": "dac2b08b-ee13-4bd7-9dd5-d50d4ae64b9a"
+              },
+              {
+                "id": "8e4783b9-94c5-4b1c-b9ea-5d5db7bce39b",
+                "templateId": "02ecb1b4-3386-447a-af7c-0461f5c7dff2"
+              },
+              {
+                "id": "9427b0f9-11fc-423b-b507-fec2a02c917b",
+                "templateId": "a196f70c-b7cb-4285-997e-01d930be8c6a"
+              },
+              {
+                "id": "ad6101f9-0196-4700-9868-909c2afa87c3",
+                "templateId": "a5faa90d-f781-4eb9-a681-52ce282e3a01"
+              },
+              {
+                "id": "1e96ca3d-3360-4ead-b21c-fe97110ae51e",
+                "templateId": "01874e4e-7342-49e6-a9ad-490867dbf5b8"
+              },
+              {
+                "id": "5389e1e5-8e63-42da-a19f-7c0907a01cce",
+                "templateId": "2a1fa3e2-6d8c-40dc-977d-47270ced5553"
+              },
+              {
+                "id": "a9626a12-3cc0-440c-8626-7dbb8c79a823",
+                "templateId": "e0e4535d-939b-4c35-9b81-c3903c32c2c0"
+              }
+            ]
+          },
+          {
+            "id": "d94916c9-7768-4adb-b86d-ecf97d025cec",
+            "templateId": "d3d931cc-0067-40a9-a3d4-b131c9c46eb9",
+            "fields": [
+              {
+                "id": "c707a620-26ed-424f-abc1-1c25ce5035ad",
+                "templateId": "16d7cf15-01f3-453c-9a1d-25c428f0fafc"
+              },
+              {
+                "id": "66235276-7cce-44d6-99da-a0d2993f0066",
+                "templateId": "72436bec-5055-44d2-b854-73e21b626c64"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "20df4964-3351-485f-92b3-25877631f513",
+        "type": "section",
+        "templateId": "40d3c018-5fad-43a1-b3a0-2557f5d2125a",
+        "fields": [
+          {
+            "id": "6c71726a-e899-44cd-896a-9c1002b848ab",
+            "templateId": "50e5b772-0efb-4f75-9341-e301a4443a60",
+            "fields": [
+              {
+                "id": "aef82c6a-9acf-4a9b-8ea3-2e6c68b75669",
+                "templateId": "14806cd1-7f30-44d4-ba27-94ae0f27d777"
+              },
+              {
+                "id": "34c9a6a9-1d9e-4f97-adab-953ad42cb197",
+                "templateId": "87018df1-bdf7-4db8-af06-32d61e4ca2b0"
+              },
+              {
+                "id": "61d0c169-4f9e-4823-8dbf-8a4a0f71a9a6",
+                "templateId": "fec5d0ec-4d9d-48a1-87de-208c9eee275d"
+              },
+              {
+                "id": "eff1bbba-d4c3-47c3-bf44-46d4b9c1e137",
+                "templateId": "849e8675-e39d-4c8e-a9cd-6fb116694aee"
+              },
+              {
+                "id": "db27c136-5def-4214-b730-5b8c03dc145d",
+                "templateId": "72778d45-d7c2-441d-a6f6-05e30ab6ec32"
+              },
+              {
+                "id": "3e0fc472-cb69-4c08-b5ec-3b72527f97f5",
+                "templateId": "99557a0c-b416-4b9c-a4fb-0b9b4a69ac87"
+              }
+            ]
+          },
+          {
+            "id": "c6ec0c7b-46b6-4dd3-8e25-e44e5cd81759",
+            "templateId": "faa4a538-a652-43a9-a837-358351e5ec85",
+            "fields": [
+              {
+                "id": "3d7d7a63-1734-46e1-b6ef-b0e4fda4f709",
+                "templateId": "b1dbf588-41a3-4156-b04b-117378b3d834"
+              },
+              {
+                "id": "681d685b-06e0-4375-a06a-75258636000b",
+                "templateId": "8ef06cd4-f8f4-4fa1-b8ab-43abdd398110"
+              },
+              {
+                "id": "332a385e-af12-470e-a5d8-6471fa97da67",
+                "templateId": "7620af8b-665d-434c-8556-4f7d524639a8"
+              },
+              {
+                "id": "e3263ada-c174-41a0-90aa-237ccedc9001",
+                "templateId": "de333e85-9cb0-4e2e-b1b8-5c16e6c7a46d"
+              },
+              {
+                "id": "7b3bf438-2085-4eeb-a0ef-cfd1015fb28f",
+                "templateId": "2c0deb85-7138-4566-b488-497d8434d6e9"
+              },
+              {
+                "id": "e3c59dc5-8721-4eaf-9cda-a08501b5cfa8",
+                "templateId": "2e78b3f0-9002-4654-8d9d-b0e07654b3a2"
+              }
+            ]
+          },
+          {
+            "id": "ad4479b9-4ae3-498a-9d6f-53b67d4fe0e8",
+            "templateId": "8f623c23-d2a7-4d12-b203-8961d792fa98",
+            "fields": [
+              {
+                "id": "0d135f3a-5eee-4345-8c05-f4424ec3a503",
+                "templateId": "93a51b1d-f07e-49ce-afac-cff3d0b70851"
+              },
+              {
+                "id": "170a1e12-8690-45ca-bec6-bd117c1a4f3a",
+                "templateId": "111b4e8c-161c-4a7f-b681-afb6ee002721"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "de870096-8e31-4508-b927-97e0c5c5e6e5",
+        "type": "secondaryServiceLocation",
+        "viewed": false
+      },
+      {
+        "id": "6f6680c6-be4f-453c-8cc3-6d9ec8aab07f",
+        "type": "section",
+        "templateId": "e0da9f39-34df-4562-aa0b-b773d9a9bdae",
+        "fields": [
+          {
+            "id": "3ed4e2cf-e2e5-4c85-a17c-576c36e76fe7",
+            "templateId": "9fdcf0f8-17f2-4739-9347-7fabe38eaba7",
+            "fields": [
+              {
+                "id": "f33d8db1-c33b-429a-94fd-84f2559875c8",
+                "templateId": "8eb66d11-2f8e-42b5-9ef4-6678cb240715"
+              },
+              {
+                "id": "149d28ab-bae0-49ba-ad0e-1eb54156d629",
+                "templateId": "34959078-60f3-4baa-937a-d940dc9e95ba"
+              },
+              {
+                "id": "45f0fbbe-2c65-4923-a1ca-5f4370d06729",
+                "templateId": "6d49c806-4af1-4def-927d-c451fb02a33a"
+              },
+              {
+                "id": "7079767e-bff0-49ec-a301-0c94121ddfc3",
+                "templateId": "2586e0b0-0296-444d-81a2-6d96263236fb"
+              },
+              {
+                "id": "427e5e3f-319b-4fc4-9f91-c6ad7998e728",
+                "templateId": "574f175d-ade0-4514-86e2-8b230777ae6b"
+              },
+              {
+                "id": "5a4d0c42-52bf-4fda-8d89-92350c589741",
+                "templateId": "67e72b0a-e280-4f04-a1c1-85b18a160141"
+              },
+              {
+                "id": "946c4eb0-7fd5-42b2-9c59-5cf921180097",
+                "templateId": "bb9281ba-214b-43af-a4b7-a33cafe885a8"
+              },
+              {
+                "id": "edd97cf1-3a46-4624-b5f1-1aeed1ccc392",
+                "templateId": "29b1aa15-4855-4bd9-9fac-e9bed3429fa6"
+              }
+            ]
+          },
+          {
+            "id": "d0cec4e3-3758-45b7-8626-13f706e4a4fd",
+            "templateId": "4ba53fca-5a04-4b5e-90f9-d1f96ab6e04a",
+            "fields": [
+              {
+                "id": "9e5b5b3a-ff2f-45af-9669-0689d2b8904a",
+                "templateId": "0453937a-a86f-4aaa-8eda-a6544b10b069"
+              },
+              {
+                "id": "cfef9bbb-6153-4ecc-8225-957731af975d",
+                "templateId": "a33f327c-c305-4063-8bfa-e28383705f24"
+              },
+              {
+                "id": "1f45e8a5-61c3-45c8-9757-cab7a533b0f9",
+                "templateId": "c7968f5a-8490-4ef5-ae3e-f213dba8a512"
+              },
+              {
+                "id": "2f0ffe27-beb7-4be5-8611-5ec32a391581",
+                "templateId": "cdeb7512-5a44-4f68-88ab-4de5a3ed3e7f"
+              },
+              {
+                "id": "18a51e2f-234f-4171-9734-a2a71a8e85ac",
+                "templateId": "878746f1-7a95-4468-80ab-e40b552782d6"
+              },
+              {
+                "id": "8af2c41a-c6c4-42e2-a6be-e27bf331e660",
+                "templateId": "53dc1bf0-4de4-4d13-96bc-2ba40651e474"
+              }
+            ]
+          },
+          {
+            "id": "f837d384-b85e-4e1a-bc05-5d6118c50320",
+            "templateId": "199c146f-b727-4770-b495-be264fb76844",
+            "fields": [
+              {
+                "id": "2995b660-2321-44a5-ac65-3b03247f9c19",
+                "templateId": "93033d16-1f25-4613-a816-d20646279a29"
+              },
+              {
+                "id": "fbaebadf-afb9-43ec-b2d9-639a209f063d",
+                "templateId": "df8d3b54-8c59-41dc-84a6-7784c34dd462"
+              },
+              {
+                "id": "cab43741-95ab-4d84-a42c-7b08ad0ab84c",
+                "templateId": "2bab58c2-11a1-4f45-b9c0-c6930c7c62d0"
+              },
+              {
+                "id": "aebf0b70-9129-4f11-b8a3-7b3de346023e",
+                "templateId": "6015f47a-dc41-4dbc-844b-10f6c409abd3"
+              },
+              {
+                "id": "a407255e-7dcb-4a4d-8b80-d720c935e392",
+                "templateId": "39be988e-ff11-4b4a-84ed-c53cb099991e"
+              },
+              {
+                "id": "3ffbd84c-e59e-4c19-bbc3-a77c2f4d9608",
+                "templateId": "e4f5ecce-6b26-493a-8ad7-b22108eb78b2"
+              },
+              {
+                "id": "bb275acc-9a74-45f5-80c5-fb4c00e2fd98",
+                "templateId": "cfdff9e0-95dc-43e4-82f7-fa193c7d9156"
+              },
+              {
+                "id": "451c3fc8-8a90-41b4-b79a-c0decea875a4",
+                "templateId": "109f9013-fd68-4819-b31e-36e872084b98"
+              },
+              {
+                "id": "f02f2ccb-69d7-4402-8e96-77f1e7ff89b9",
+                "templateId": "5417a57b-2f8c-41b5-bcbe-4ff16fe52787"
+              }
+            ]
+          },
+          {
+            "id": "d215f0c9-6787-4c62-9900-7538c3f5be4a",
+            "templateId": "00c97a60-1ec1-4a80-ab10-e37dc6ca764a",
+            "fields": [
+              {
+                "id": "870f9b05-fd27-4d87-9b16-bcaa7179fc68",
+                "templateId": "df3ad012-5cb3-44f4-b9bb-341a0f7377ec"
+              },
+              {
+                "id": "79b04fe4-e251-4039-987d-642c227c0614",
+                "templateId": "592eb9a5-2e6e-47e3-89fd-4e43d693eb0b"
+              },
+              {
+                "id": "dd2cbfa5-ae78-4553-b120-5451aaadef61",
+                "templateId": "5950edd2-094d-4268-a092-3fe5b30804e6"
+              },
+              {
+                "id": "c74bd1f5-8b55-4297-a3ed-2f7aeddba64e",
+                "templateId": "5f18ff67-3f96-4a7b-b05f-283036051408"
+              },
+              {
+                "id": "be92352a-d43d-4416-ae2f-2499f8f895d0",
+                "templateId": "75917b9b-60e9-4621-ae7c-9cdc00fee123"
+              },
+              {
+                "id": "45fac323-f441-4f4e-bb16-f3e1594de478",
+                "templateId": "3d7e20e3-211f-449a-ad02-50e718137c35"
+              },
+              {
+                "id": "ccc03d4c-19c8-43ea-8c9c-0d097fd6967c",
+                "templateId": "705299a2-d0e0-46d5-a844-119b69889a2f"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "41d303dc-2c1a-44d5-9778-2fe5d50a4888",
+        "type": "affiliation",
+        "viewed": false
+      },
+      {
+        "id": "697fb6e1-a141-4fe7-826b-5ab151cf7b90",
+        "type": "section",
+        "templateId": "04dbe534-693f-43de-b5e4-9ce322cf7fc6",
+        "fields": [
+          {
+            "id": "b155fef3-58a2-4955-a8f5-b740199267c5",
+            "templateId": "3b5eaf77-0d9c-43f5-bec4-63a433c366ca",
+            "fields": [
+              {
+                "id": "78807533-e090-43b7-a92e-471ddfc2f5cf",
+                "templateId": "9f253850-cf4e-46f1-97eb-a3ca529b6bdd"
+              },
+              {
+                "id": "79b19b66-fb38-463f-aed0-d6cade55be39",
+                "templateId": "34e70420-a3a8-48ec-a830-bae9420d5508"
+              },
+              {
+                "id": "2705af92-1c25-4832-aa0e-195a0d3ce7c1",
+                "templateId": "621cc3bd-af13-4600-92b2-bf5899f1cc91"
+              },
+              {
+                "id": "6176f9c4-e543-4cfe-bb90-61b3f87d3f0c",
+                "templateId": "58974ded-da92-4bef-a3b7-4273775fe68b"
+              },
+              {
+                "id": "871b6aa1-6272-4b39-8067-fcbed7404303",
+                "templateId": "14835e41-7d24-44ef-abe6-fcf5229e4f06"
+              },
+              {
+                "id": "237e7b8a-33ee-4b7c-b13e-921bdad594f1",
+                "templateId": "6355d24c-a636-4abf-bb4f-4eff7b282678"
+              },
+              {
+                "id": "794c1110-6296-407f-9446-97722b408aa8",
+                "templateId": "b489d3da-0774-4c5f-81c8-d619a303db32"
+              },
+              {
+                "id": "92f1db2c-c356-42ce-910a-3729c756e3f4",
+                "templateId": "b78e3288-c4ff-4aee-a673-25596642c4ed"
+              },
+              {
+                "id": "33d45238-9ca7-431e-828a-f2fe12da432e",
+                "templateId": "55283c2e-f28d-489a-9b09-0425f3ae5356"
+              },
+              {
+                "id": "4d6368e1-e7a1-4b36-9d3f-fd98836c4823",
+                "templateId": "7156debd-e220-4ad4-af87-3cba6117bd5f"
+              },
+              {
+                "id": "4689a378-747f-490a-aaec-c4d3caccb918",
+                "templateId": "79f5dd26-3f3b-43fc-9d0e-ac8af3d4c2df"
+              },
+              {
+                "id": "7080874c-53b2-40a0-ae7e-528d08771e3e",
+                "templateId": "07c416b8-b2ee-4861-a663-cbee474856f8"
+              },
+              {
+                "id": "0d690b3a-72e4-4f94-8946-5ad4e6dfe003",
+                "templateId": "49caeabc-185e-425e-a770-dae708db6e03"
+              },
+              {
+                "id": "b6327473-ab93-4915-af6a-55041f283aa2",
+                "templateId": "af3778ec-1fd0-4571-bbb4-793682de0de7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b51300e7-3f92-4f5f-892c-3250b675c02a",
+        "type": "section",
+        "templateId": "75ac3917-aabc-4832-9e8e-26905afb0f76",
+        "fields": [
+          {
+            "id": "9176507b-9746-4e1b-b42e-c813522031cc",
+            "templateId": "68d3d1a5-5059-46e1-aee2-e97a2b8485c3",
+            "fields": [
+              {
+                "id": "f9da208e-0d93-430d-b60e-692737fd9873",
+                "templateId": "6bafae56-8c19-4561-ae7f-8f8dc326c87e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "745814a8-2ede-47fa-ab69-14e1855d7255",
+        "type": "section",
+        "templateId": "df87200b-8013-4ded-bebb-2a74edde5a86",
+        "fields": [
+          {
+            "id": "f884058d-6ca2-43cb-8550-42124a43c9aa",
+            "templateId": "4f99c239-d0f1-40ea-bf3d-22c10bb2b656",
+            "fields": [
+              {
+                "id": "58cf848b-1f2f-472c-acd3-16f76feefb1e",
+                "templateId": "01d9a193-54d1-4c3c-84e6-bc79b2b3bb08"
+              },
+              {
+                "id": "7443a1b1-b350-4fd6-8efd-0366ce90802a",
+                "templateId": "edc80c96-faa6-4171-82f6-fadf575a44c1"
+              },
+              {
+                "id": "31bc624e-dbf9-4e13-b42c-e8c4dc12fc60",
+                "templateId": "3274082e-99f0-4dc4-959d-1276628405fe"
+              },
+              {
+                "id": "5f7149e4-a3d7-48a5-8586-9804aa35f1aa",
+                "templateId": "c81a023c-f24d-4daf-9aad-d4418a840ba4"
+              },
+              {
+                "id": "490a91da-ebfe-49ba-96ab-c5f8ef8b3c2a",
+                "templateId": "5a4e001a-73fa-497e-bfa9-badd7effc164"
+              },
+              {
+                "id": "37f4ba78-604f-4c76-acd9-19b702b87f1e",
+                "templateId": "1e7d1cbe-7c86-4997-ae47-baafde0f68ee"
+              },
+              {
+                "id": "f5e9c2d2-1cf7-418e-988e-995fb7e71c6c",
+                "templateId": "54dfed12-1cdc-4895-af0d-4371b40f81d2"
+              },
+              {
+                "id": "c52b5a9f-1b61-4f12-9863-44156ebad275",
+                "templateId": "f541ea32-2b7a-431d-9255-a30c2e976343"
+              },
+              {
+                "id": "b81f028e-69f3-4d91-b76c-97be9fe873e7",
+                "templateId": "3558a979-d307-4d73-9666-d8fc2cc1b78e"
+              },
+              {
+                "id": "3100833c-dc8e-4ff6-9300-3969ab0a7030",
+                "templateId": "9a7f44d5-d6b9-47bd-a9c7-be7e22a6f9f6"
+              },
+              {
+                "id": "164aae3b-4afe-4b38-9f6b-03526632eb6c",
+                "templateId": "f701fc7a-db56-40a6-806f-d552150f4322"
+              },
+              {
+                "id": "2533c676-4437-49bc-92e2-c8017529ab67",
+                "templateId": "a4829c56-f878-41d4-84bd-5a77de6af502"
+              },
+              {
+                "id": "dc7fd0a7-da80-4d01-b405-f9e20e923340",
+                "templateId": "40713da2-dda7-4a72-86a0-50f6c2c88ab4"
+              },
+              {
+                "id": "fb3ac7bf-acbc-47d4-b5a6-dc5b4b699ee3",
+                "templateId": "b989ff1a-7d40-4f49-95d3-1211cc81a88e"
+              },
+              {
+                "id": "97955718-33e9-4b71-8496-8fee445cc82d",
+                "templateId": "3190a848-6b62-4677-b23e-b2ed68be3839"
+              },
+              {
+                "id": "5827b4df-49d8-4bba-ae66-ef8f7bca74a9",
+                "templateId": "a97bbc39-8aaa-491f-8bc0-3a898bf3ea5b"
+              }
+            ]
+          },
+          {
+            "id": "d09f1355-2899-4fe9-8eda-88e4305072cc",
+            "templateId": "a3fc51ba-bcd6-4c65-a16d-3c4a1408fb4c",
+            "fields": [
+              {
+                "id": "cb7fc086-9d6b-4cf8-8e36-4ea91b4a319f",
+                "templateId": "84edc3a0-9c74-4c19-ac58-b95c07c8e615"
+              },
+              {
+                "id": "1a1baffb-d653-4490-9a70-926edd552f64",
+                "templateId": "5e9a5ced-0edf-4b65-99a7-f6f17717ff66"
+              },
+              {
+                "id": "4de12d6b-a58e-46c9-a252-44bd6d551c5d",
+                "templateId": "4bf5294c-1893-4abe-81b3-b1894cfdd3b9"
+              },
+              {
+                "id": "0fe3e896-f084-46ad-a860-97f101763217",
+                "templateId": "09f4d15b-fb07-4ef6-845f-4471b9d2433c"
+              },
+              {
+                "id": "2cdf19eb-6de5-45fd-85ae-4badf19a7911",
+                "templateId": "626c2589-be86-41e8-aee9-e177f6183fdc"
+              },
+              {
+                "id": "4e8d1ab5-f354-4558-bf2a-068833986199",
+                "templateId": "808abf33-79fe-48d7-a218-3d4ad8a0bca4"
+              },
+              {
+                "id": "b49dbd0b-c17f-4634-91f3-234781af711e",
+                "templateId": "b3876552-a04a-4cc4-84fd-f8f27fb04f5a"
+              },
+              {
+                "id": "2b862657-ff2c-484a-8c1f-e614b856f337",
+                "templateId": "f1fd0494-e3f9-4255-8ccc-cabb7aac52a1"
+              },
+              {
+                "id": "f995a7e4-4e14-4770-8fd7-a60b54c96208",
+                "templateId": "e3331596-0422-47d5-8d1d-f6a69d0fb0be"
+              },
+              {
+                "id": "808c66b8-2a00-4a43-9056-f83baf473a10",
+                "templateId": "3bee23bc-82f6-43f6-883f-92c4e62254a0"
+              },
+              {
+                "id": "c6375af0-db63-4678-9aec-96dfa096d41a",
+                "templateId": "c2196313-01db-4b57-8255-8a94c6a0fa7e"
+              },
+              {
+                "id": "37a0a5fc-8da6-484c-8f5b-0448a3e8ca07",
+                "templateId": "e9c250f6-9d3d-467f-b54d-3d488913dd9a"
+              },
+              {
+                "id": "75abba18-d372-473e-a333-4453db30a793",
+                "templateId": "03ea5697-b2cb-45d4-a1e1-869b25f066eb"
+              },
+              {
+                "id": "3a26c7d9-f45d-4ed5-b178-ff2160d2c4b6",
+                "templateId": "9eadbd7d-d7a2-4e03-93fc-b846c6fb6fde"
+              },
+              {
+                "id": "5a8548e5-5cfe-45d6-95a3-7d060d652844",
+                "templateId": "f6307265-0fd1-4bc7-a218-a2719263e883"
+              },
+              {
+                "id": "80899850-3705-45c5-807f-0f74c780aa9e",
+                "templateId": "082c30cc-c350-4e93-bbf0-f80a8167b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ee26fe46-b479-423f-b62b-0188f598abdf",
+        "type": "section",
+        "templateId": "53d25d8a-903b-4437-aa07-ca0336e373f8",
+        "fields": [
+          {
+            "id": "d67ca5b2-86e3-4d1a-8a44-cb562ba8014d",
+            "templateId": "76a93c81-cc53-4e45-982d-e52ff76bd643",
+            "fields": [
+              {
+                "id": "2b2e33c7-b4f4-4394-9e6a-291425af5a7d",
+                "templateId": "a168097a-d57a-4c0d-a9dc-3ff4eabeca16"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "727f4224-2e21-47ca-8b53-ed3c71f27a31",
+        "type": "section",
+        "templateId": "723e3c6a-8218-4e98-85ba-dac510bfad3d",
+        "fields": [
+          {
+            "id": "214e0205-cc50-4d15-860c-3f872eff41a7",
+            "templateId": "d4ff457f-25b5-47c7-b78e-fd096b4fe134",
+            "fields": [
+              {
+                "id": "b04fed84-35a9-4c0d-8043-36a44add6025",
+                "templateId": "105e466c-e1a0-4bfc-b71d-a95350490d47",
+                "answer": {
+                  "value": "{\"blocks\":[{\"key\":\"295t4\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}",
+                  "type": "simple"
+                }
+              },
+              {
+                "id": "5a7455f2-f19f-4d9e-b5ce-bd0a76b4d505",
+                "templateId": "59a5285a-0fb8-4e2c-be1f-a65160d45e60"
+              },
+              {
+                "id": "43ed15a9-8852-4790-a472-7d12dfcf7072",
+                "templateId": "fef0ec08-d9da-4d94-a983-0ec0e0aebfb0"
+              },
+              {
+                "id": "c9d9ab8b-8eed-4216-a35f-5bcc429fb5bf",
+                "templateId": "b1e8c94b-73d2-45dd-a738-31af2606d33f"
+              },
+              {
+                "id": "a9518473-ebf4-4151-bf07-18373f080137",
+                "templateId": "de775302-df87-40e6-9ede-44091ec2e7e6"
+              },
+              {
+                "id": "3d3ea1b3-a6fd-4a35-a4de-4e5f66545f58",
+                "templateId": "18727ee9-2967-4125-8aef-930fed4e0ba7"
+              },
+              {
+                "id": "9e6226f8-0584-4455-a131-e850cea4c857",
+                "templateId": "4b5e3016-d1df-4733-87f3-0629b8b5cf80"
+              },
+              {
+                "id": "82ea82f6-ff43-421d-b7d4-dc4f2f946d31",
+                "templateId": "a0f162c8-1c94-4269-bd7f-0f6a1f4005b4"
+              },
+              {
+                "id": "90450291-e868-4b7c-9050-c393e2a779b1",
+                "templateId": "15d78c4a-a700-4d89-8893-e5ba796560d2"
+              },
+              {
+                "id": "e11631ce-95e2-435a-bb47-d73f574f9469",
+                "templateId": "9328f373-ac3e-4af5-b129-426e912d549d"
+              },
+              {
+                "id": "15f34ff0-82f6-4dfe-bd3d-aa24f2643145",
+                "templateId": "1858cc4f-5643-4172-b5a3-75a8df22707a"
+              },
+              {
+                "id": "9e18c16f-6659-4b0b-a305-1b923d731273",
+                "templateId": "fff63750-2bb7-4fd2-af79-73bd80243b29"
+              },
+              {
+                "id": "3261ed17-8e63-4362-a187-31190255ecdd",
+                "templateId": "53eb5ce9-8239-4a5e-b870-2bf017125eae"
+              },
+              {
+                "id": "b6366e2a-4b08-4cb9-90ad-22122d05aba6",
+                "templateId": "6a863250-ea29-4583-9a21-84f709e6d8ca"
+              },
+              {
+                "id": "365b4d14-66fc-4ec2-8e87-34a5fe1abd28",
+                "templateId": "d5bacd2e-4cee-4dbb-947b-feb7208428c7"
+              },
+              {
+                "id": "90f8102d-85b6-4e51-9f72-a59748b39d96",
+                "templateId": "40f8c587-71e6-49c6-b02f-9b5e0709340c"
+              },
+              {
+                "id": "fb783541-0138-4ce2-8dac-350b476a1b27",
+                "templateId": "784341b5-ab5b-421a-823e-ea953ba45d28"
+              },
+              {
+                "id": "2e52e0cf-4a51-4dff-86b8-01982cf38bdf",
+                "templateId": "0bc18066-29d6-4baf-aa37-9aaa9f589310"
+              },
+              {
+                "id": "a6d4e0c0-a9de-4dc1-be65-c651178e2619",
+                "templateId": "e28d3527-9c14-4d35-9a90-bd2579dd26a8"
+              },
+              {
+                "id": "b0c61340-5afb-482e-bed9-d71dd918025f",
+                "templateId": "cba14ad5-b125-4113-8c58-b7b9f13972e4"
+              },
+              {
+                "id": "a2b91e8c-e59e-40fc-9132-d13284d7a80d",
+                "templateId": "4a3aaa01-6d53-42cc-a659-b0920dff97cc"
+              },
+              {
+                "id": "84697ebb-9eca-4366-89d9-169429211b2f",
+                "templateId": "9a443cd7-bbd2-4a92-aead-c18a07c4a5f8"
+              },
+              {
+                "id": "9a212131-92a8-4a1c-97ad-2fe1e19f4112",
+                "templateId": "58793bec-5555-4acf-a781-080d0555893c"
+              },
+              {
+                "id": "bc77a0d0-d0d7-4b5e-b4f8-d860530f17f3",
+                "templateId": "98b01204-8db4-459a-ac40-31e4c0b44947"
+              },
+              {
+                "id": "db142a83-fc2c-44a7-bb02-820a5a248eb7",
+                "templateId": "b6e50c4e-e081-4207-bc18-e40dc11e9619"
+              },
+              {
+                "id": "36c6731c-76ff-414b-b59a-76af0ccc7bg",
+                "templateId": "bf44860c-9e61-4dd1-9141-b63b7b0e5acd"
+              },
+              {
+                "id": "8cd9c287-df05-4ebb-b126-90c1e2e9b1b0",
+                "templateId": "68722a32-b434-4fef-8f45-d3d952887123"
+              },
+              {
+                "id": "73cfd106-5be5-4409-a28b-452bc47aa2e5",
+                "templateId": "da99ebaa-edfb-4d72-a255-848b2d71a981"
+              },
+              {
+                "id": "73704868-807a-49ec-bd6c-d63010ea6b4b",
+                "templateId": "7f302aa0-1712-494c-beb5-de17dd320960"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e7fbd271-e062-4d50-a86f-da155c86d3bb",
+        "type": "section",
+        "templateId": "21eca574-7d58-4463-a4c4-acdc3bfccc90",
+        "fields": [
+          {
+            "id": "945c2dd8-f8cd-4c8f-81a1-53a647cc9969",
+            "templateId": "a36d7671-a0e5-4be6-b9ce-b79dd5c9505f",
+            "fields": [
+              {
+                "id": "d46d4bf2-3983-41dc-8a6a-f09dcf2f7efb",
+                "templateId": "fdf64d4d-527d-4d4f-bcb4-6e9899d98af7"
+              },
+              {
+                "id": "30845a9c-8b06-4d26-ab27-976ceb600c9a",
+                "templateId": "f9a05472-6afe-467a-89ea-e4833482a854"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c0db0345-1636-4349-98c9-8f0446730cc1",
+        "type": "providerAgreement",
+        "viewed": false
+      },
+      {
+        "id": "8b599c6b-c3fd-4a3a-9917-d9d67c891c7f",
+        "type": "payment",
+        "viewed": false
+      },
+      {
+        "id": "a73ca127-9943-4193-a875-81242e51495b",
+        "type": "summary",
+        "viewed": false
+      }
+    ],
+    "payerId": "providermgmt",
+    "type": "request",
+    "requestType": "individual"
+  }
+

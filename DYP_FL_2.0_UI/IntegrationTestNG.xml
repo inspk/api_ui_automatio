@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="South Dakota Integration Test Suite" parallel="none"  preserve-order="true">
+    <parameter name="browser" value="chrome"/><!--    Values = chrome, remote, firefox-->
+    <parameter name="environment" value="SIT"/>  <!--    Values = SD, SD_IUAT, -->
+    <parameter name="screening" value="VYE_TO_API"/>  <!--    Values = VYE, API, VYE_TO_API (if VYE fails screening will be handled API)  -->
+    <parameter name="screenWidth" value="Maximum"/>
+    <parameter name="screenHeight" value="Maximum"/>
+    <parameter name="testEmailAccount" value="sd.test.provider@gmail.com"/>
+
+    <!--    <listeners>-->
+    <!--        <listener class-name="com.hhstechgroup.jira.listener.JiraDefectListener"/>-->
+    <!--    </listeners>-->
+    <test name = "System Option Configuration Verification workflows">
+        <classes>
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsDataChangeVerificationTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsLicensureVerificationTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsUserProfileVerificationTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsRemindersToReviewersVerificationTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsRequestAdditionalInformationVerificationTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsScreeningVerificationTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsAffiliationsVerificationTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsApprovalsVerificationTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsCustomSectionsVerificationTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsEnrollmentTypeVerificationTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsNotificationEngineVerificationTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsPaymentAndFeesVerificationTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsRevalidationVerificationTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsRolesVerificationTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsSecurityPolicyVerificationTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsSiteVisitVerificationTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsUserDeactivationVerificationTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsUserProfileVerificationTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsDuplicityVerificationTest"/>-->
+        </classes>
+    </test>
+    <test name="Individual Servicing Enrollment work flows"  >
+        <classes>
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.individualServicingProviderWorkflows.EntityEnrollmentApplicationTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.individualServicingProviderWorkflows.ServicingEnrollmentApprovalTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.individualServicingProviderWorkflows.ServicingEnrollmentDenialTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.individualServicingProviderWorkflows.ServicingProviderReconsiderationApprovalTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.individualServicingProviderWorkflows.ServicingEnrollmentRAITest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.individualServicingProviderWorkflows.ServicingEnrollmentCoCApprovalTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.individualServicingProviderWorkflows.ServicingProviderCoCDenialTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.individualServicingProviderWorkflows.ServicingEnrollmentRetroactiveApprovalTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.individualServicingProviderWorkflows.ServicingEnrollmentRetroactiveSuspendReactiveTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.individualServicingProviderWorkflows.ServicingEnrollmentRetroActiveTerminateAndReactiveTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.individualServicingProviderWorkflows.ServicingProviderRequestForTerminationApprovalTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.individualServicingProviderWorkflows.ServicingProviderEnrollmentRevalidationTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.individualServicingProviderWorkflows.ServicingReenrollmentApprovalTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.individualServicingProviderWorkflows.ServicingEnrollmentDataChangeTest"/>-->
+        </classes>
+    </test>
+    <test name="Individual Billing Enrollment work flows" >
+        <classes>
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.individualBillingProviderWorkflows.BillingEnrollmentApprovalTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.individualBillingProviderWorkflows.BillingEnrollmentDenialTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.individualBillingProviderWorkflows.BillingProviderReconsiderationApprovalTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.individualBillingProviderWorkflows.BillingEnrollmentRAITest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.individualBillingProviderWorkflows.BillingEnrollmentCoCApprovalTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.individualBillingProviderWorkflows.BillingEnrollmentCoCDenialTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.individualBillingProviderWorkflows.BillingEnrollmentRetroactiveApprovalTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.individualBillingProviderWorkflows.BillingEnrollmentRetroActiveSuspendReactivateTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.individualBillingProviderWorkflows.BillingEnrollmentRetroActiveTerminateReactivateTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.individualBillingProviderWorkflows.BillingProviderRequestForTerminationApprovalTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.individualBillingProviderWorkflows.BillingProviderEnrollmentRevalidationTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.individualBillingProviderWorkflows.BillingEnrollmentDataChangeTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.individualBillingProviderWorkflows.BillingReenrollmentApprovalTest"/>-->
+
+        </classes>
+    </test>
+    <test name="Trading Partner Enrollment work flows" >
+        <classes>
+            <!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.tradingPartnerProviderWorkflows.TPProviderEnrollmentApprovalTest"/>-->
+            <!--           <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.tradingPartnerProviderWorkflows.TPProviderEnrollmentDenialTest"/>-->
+            <!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.tradingPartnerProviderWorkflows.TPEnrollmentReconsiderationTest"/>-->
+            <!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.tradingPartnerProviderWorkflows.TPEnrollmentRAITest"/>-->
+            <!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.tradingPartnerProviderWorkflows.TPProviderEnrollmentCoCApprovalTest"/>-->
+            <!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.tradingPartnerProviderWorkflows.TPProviderEnrollmentCoCDenialTest"/>-->
+            <!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.tradingPartnerProviderWorkflows.TPEnrollmentDataChange"/>-->
+            <!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.tradingPartnerProviderWorkflows.TPEnrollmentRetroActiveTerminateReactivateTest"/>-->
+            <!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.tradingPartnerProviderWorkflows.TPEnrollmentRetroActiveSuspendReactivateTest"/>-->
+            <!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.tradingPartnerProviderWorkflows.TPProviderEnrollmentRevalidationTest"/>-->
+        </classes>
+    </test>
+    <test name="Entity Enrollment work flows" >
+        <classes>
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.entityProviderWorkflows.EntityEnrollmentApprovalTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.entityProviderWorkflows.EntityEnrollmentDenialTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.entityProviderWorkflows.EntityEnrollmentRAITest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.entityProviderWorkflows.EntityEnrollmentCoCApprovalTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.entityProviderWorkflows.EntityEnrollmentCoCDenialTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.entityProviderWorkflows.EntityReconsiderationApprovalTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.entityProviderWorkflows.EntityEnrollmentDataChangeTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.entityProviderWorkflows.EntityEnrollmentRevalidationTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.entityProviderWorkflows.EntityEnrollmentRetroActiveApprovalTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.entityProviderWorkflows.EntityEnrollmentRetroActiveSuspendReactivateTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.entityProviderWorkflows.EntityRequestForTerminationApprovalTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.entityProviderWorkflows.EntityReenrollmentApprovalTest"/>-->
+
+        </classes>
+    </test>
+    <test name="PEM Enrollment work flows" >
+        <classes>
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.pemProviderWorkflows.PEMEnrollmentApprovalTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.pemProviderWorkflows.PEMEnrollmentDenialTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.pemProviderWorkflows.PEMEnrollmentReconsiderTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.pemProviderWorkflows.PEMEnrollmentRAITest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.pemProviderWorkflows.PEMEnrollmentCoCApprovalTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.pemProviderWorkflows.PEMEnrollmentCoCDenialTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.pemProviderWorkflows.PEMRetroActiveSuspendReactivateTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.pemProviderWorkflows.PEMRetroActiveTerminateReactivateTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.pemProviderWorkflows.PEMRevalidationApprovalTest"/>-->
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.pemProviderWorkflows.PEMProviderDataChangeTest"/>-->
+        </classes>
+    </test>
+    <test name="PEM Provider enrolling other Providers work flows" >
+        <classes>
+            <!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.pemProviderWorkflows.PEMEnrollmentApprovalTest"/>-->
+            <!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.pemProviderWorkflows.pemEnrollingOtherProviders.PEMEnrollingBillingProviderAndApprove"/>-->
+            <!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.pemProviderWorkflows.pemEnrollingOtherProviders.EntityEnrollmentApplicationTest"/>-->
+            <!--            <class name="com.hhstechgroup.tests.SouthDakota.integrationRegression.pemProviderWorkflows.pemEnrollingOtherProviders.PEMEnrollingServicingProviderAndApprove"/>-->
+        </classes>
+    </test>
+</suite>

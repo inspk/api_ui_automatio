@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="South Dakota Regression Test Suite for home page" parallel="none">
+    <parameter name="environment" value="SD" />
+    <parameter name="screenWidth" value="Maximum" />
+    <parameter name="screenHeight" value="Maximum" />
+    <parameter name="testEmailAccount" value="sd.test.provider@gmail.com"/>
+    <test name="Login Page Verification----Key Resources-"  >
+    <classes>
+            <class name="com.hhstechgroup.tests.SouthDakota.regression.homepage.LoginTest"/>
+        </classes>
+    </test>
+</suite>

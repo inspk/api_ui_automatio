@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="South Dakota Sanity Test Suite" parallel="none" preserve-order="true">
+    <parameter name="environment" value="SD"/>     <!--SD_IUAT // SD-->
+    <parameter name="screenWidth" value="Maximum"/>
+    <parameter name="screenHeight" value="Maximum"/>
+    <parameter name="testEmailAccount" value="sd.test.provider@gmail.com"/>
+
+    <test name = "System Option Configuration Verification for Roles">
+        <classes>
+            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsRolesVerificationTest"/>
+        </classes>
+    </test>
+    <test name = "System Option Configuration Verification for Screening">
+        <classes>
+            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsScreeningVerificationTest"/>
+        </classes>
+    </test>
+    <test name = "System Option Configuration Verification for Rules">
+        <classes>
+
+        </classes>
+    </test>
+    <test name = "System Option Configuration Verification for Data Change">
+        <classes>
+            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsDataChangeVerificationTest"/>
+        </classes>
+    </test>
+    <test name = "System Option Configuration Verification for Approvals">
+        <classes>
+
+        </classes>
+    </test>
+    <test name = "System Option Configuration Verification for Duplicity">
+        <classes>
+            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsDuplicityVerificationTest"/>
+        </classes>
+    </test>
+    <test name = "System Option Configuration Verification for Revalidation">
+        <classes>
+            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsRevalidationVerificationTest"/>
+        </classes>
+    </test>
+    <test name = "System Option Configuration Verification for Licensure">
+        <classes>
+            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsLicensureVerificationTest"/>
+        </classes>
+    </test>
+    <test name = "System Option Configuration Verification for Site Visit">
+        <classes>
+            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsSiteVisitVerificationTest"/>
+        </classes>
+    </test>
+    <test name = "System Option Configuration Verification for Externalization">
+        <classes>
+
+        </classes>
+    </test>
+    <test name = "System Option Configuration Verification for Auto Archive">
+        <classes>
+
+        </classes>
+    </test>
+    <test name = "System Option Configuration Verification for User Deactivation">
+        <classes>
+            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsUserDeactivationVerificationTest"/>
+        </classes>
+    </test>
+    <test name = "System Option Configuration Verification for Security Policy">
+        <classes>
+            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsSecurityPolicyVerificationTest"/>
+        </classes>
+    </test>
+    <test name = "System Option Configuration Verification for Payment And Fees">
+        <classes>
+            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsPaymentAndFeesVerificationTest"/>
+        </classes>
+    </test>
+    <test name = "System Option Configuration Verification for User Profile">
+        <classes>
+            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsUserProfileVerificationTest"/>
+        </classes>
+    </test>
+    <test name = "System Option Configuration Verification for Reminder To Reviewers">
+        <classes>
+            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsRemindersToReviewersVerificationTest"/>
+        </classes>
+    </test>
+    <test name = "System Option Configuration Verification for Request Additional Information">
+        <classes>
+            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsRequestAdditionalInformationVerificationTest"/>
+        </classes>
+    </test>
+    <test name = "System Option Configuration Verification for Notification Engine">
+        <classes>
+            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsNotificationEngineVerificationTest"/>
+        </classes>
+    </test>
+    <test name = "System Option Configuration Verification for Affiliations">
+        <classes>
+            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsAffiliationsVerificationTest"/>
+        </classes>
+    </test>
+    <test name = "System Option Configuration Verification for Custom Sections">
+        <classes>
+            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsCustomSectionsVerificationTest"/>
+        </classes>
+    </test>
+    <test name = "System Option Configuration Verification for Enrollment Types">
+        <classes>
+            <class name="com.hhstechgroup.tests.SouthDakota.configurationRegression.SystemOptionsEnrollmentTypeVerificationTest"/>
+        </classes>
+    </test>
+</suite>

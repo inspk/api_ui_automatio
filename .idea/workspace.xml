@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9383d9d7-dfef-40f9-86ee-4d4f33d31a99" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2zOpqAAzKXviEg8iqmJSW0FqeyM" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.DYP_FL_2.0 [clean,test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.DYP_FL_2.0 [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.dyp-fl-api-automation [clean,test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.&lt;default&gt;.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Automation/DYP_2.0_Automation/DYP_FL_2.0/DYP_FL_2.0_UI/FLSanityTestNG.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/DYP_FL_2.0/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/DYP_FL_2.0/DYP_FL_2.0_API&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
+  }
+}</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean test" />
+      <command value="mvn test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Automation/DYP_2.0_Automation/DYP_FL_2.0/DYP_FL_2.0_UI/FLSanityTestNG.xml">
+    <configuration name="C:/Automation/DYP_2.0_Automation/DYP_FL_2.0/DYP_FL_2.0_UI/FLSanityTestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hhstechgroup.com" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/DYP_FL_2.0_UI/FLSanityTestNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/DYP_FL_2.0/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dyp-fl-api-automation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dyp-fl-api-automation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Automation/DYP_2.0_Automation/DYP_FL_2.0/DYP_FL_2.0_UI/FLSanityTestNG.xml" />
+        <item itemvalue="TestNG.C:/DYP_FL_2.0/testng.xml" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9383d9d7-dfef-40f9-86ee-4d4f33d31a99" name="Changes" comment="" />
+      <created>1751612162372</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751612162372</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.UnsupportedClassVersionError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

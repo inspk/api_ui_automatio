@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Florida Sanity Test Suite" parallel="none" preserve-order="true">
+    <parameter name="environment" value="DYP_2"></parameter>
+    <parameter name="screening" value="API"/>  <!--    Values = VYE, API, VYE_TO_API (if VYE fails screening will be handled API)  -->
+    <parameter name="screenWidth" value="Maximum"></parameter>
+    <parameter name="screenHeight" value="Maximum"></parameter>
+    <parameter name="testEmailAccount" value="provideruser543@gmail.com"></parameter>
+
+    <test name="Home Page Verification Automated Scripts">
+        <classes>
+            <!--                <class name="com.hhstechgroup.tests.SouthDakota.sanity.LoginPageVerificationTest"/>-->
+            <!--                <class name="com.hhstechgroup.tests.SouthDakota.sanity.RegistrationProcessAndLandingPageVerificationTest"/>-->
+        </classes>
+    </test>
+
+    <test name="Internal user verification Automated Scripts">
+        <classes>
+<!--                            <class name="com.hhstechgroup.tests.SouthDakota.sanity.InternalUserDashboardVerificationTest"/>-->
+<!--                            <class name="com.hhstechgroup.tests.SouthDakota.sanity.InternalUserModulesSearchVerificationTest"/>-->
+<!--                            <class name="com.hhstechgroup.tests.SouthDakota.sanity.SystemOptionsVerificationTest"/>-->
+        </classes>
+    </test>
+
+    <test name="Entity Provider Automated Scripts">
+        <classes>
+<!--                                        <class name="com.hhstechgroup.tests.SouthDakota.sanity.EntityProviderApplicationSubmissionTest"/>-->
+<!--                                        <class name="com.hhstechgroup.tests.SouthDakota.Regression.RateSetting"/>-->
+<!--                                        <class name="com.hhstechgroup.tests.SouthDakota.sanity.EntityEnrollmentStatusesChangeAndApprove"/>-->
+<!--                                        <class name="com.hhstechgroup.tests.SouthDakota.Regression.FloridaMedicaid.FloridaMedicaidProviderForEntity"/>-->
+<!--                                        <class name="com.hhstechgroup.tests.SouthDakota.Regression.Credentialing.CredentialingIdVerificationTestForEntity"/>-->
+        </classes>
+    </test>
+
+    <test name="Individual Enrollment Automated Scripts ">
+        <classes>
+<!--                            <class name="com.hhstechgroup.tests.SouthDakota.sanity.IndividualEnrollmentProviderSubmissionTest"/>-->
+<!--                            <class name="com.hhstechgroup.tests.SouthDakota.sanity.IndividualEnrollmentProviderStatusesChangeAndApprove"/>-->
+<!--                            <class name="com.hhstechgroup.tests.SouthDakota.Regression.FloridaMedicaid.FloridaMedicaidProviderForIndividual"/>-->
+<!--                            <class name="com.hhstechgroup.tests.SouthDakota.Regression.ProviderIndicators.ProviderIndicatorTestIndividual"/>-->
+<!--                            <class name="com.hhstechgroup.tests.SouthDakota.Regression.Credentialing.CredentialingVerificationTestForIndividual"/>-->
+<!--                            <class name="com.hhstechgroup.tests.SouthDakota.sanity.CoCForEFTIndProvider"/>-->
+        </classes>
+    </test>
+
+    <test name="Trading Partner Enrollment Automated Scripts">
+        <classes>
+<!--                            <class name="com.hhstechgroup.tests.SouthDakota.sanity.TradingPartnerEnrollmentProviderTest"/>-->
+<!--                            <class name="com.hhstechgroup.tests.SouthDakota.sanity.TradingPartnerEnrollmentStatusesChangeAndApprove"/>-->
+<!--                            <class name="com.hhstechgroup.tests.SouthDakota.Regression.FloridaMedicaid.FloridaMedicaidProviderForTP"/>-->
+<!--                            <class name="com.hhstechgroup.tests.SouthDakota.Regression.ProviderIndicators.ProviderIndicatorTest"/>-->
+        </classes>
+    </test>
+
+    <test name="PEM Enrollment Automated Scripts">
+        <classes>
+                            <class name="com.hhstechgroup.tests.SouthDakota.sanity.PEMEnrollmentProviderTest"/>
+<!--                            <class name="com.hhstechgroup.tests.SouthDakota.sanity.PEMEnrollmentStatusesChangeAndApproveTest"/>-->
+<!--                            <class name="com.hhstechgroup.tests.SouthDakota.Regression.FloridaMedicaid.FloridaMedicaidProviderForPEM"/>-->
+<!--                            <class name="com.hhstechgroup.tests.SouthDakota.Regression.ProviderIndicators.ProviderIndicatorTestPEM"/>-->
+        </classes>
+    </test>
+
+    <test name="MCO Enrollment Automated Scripts">
+        <classes>
+<!--                        <class name="com.hhstechgroup.tests.SouthDakota.Regression.MCOProviderTest"/>-->
+<!--                        <class name="com.hhstechgroup.tests.SouthDakota.Regression.MCOProviderChangeStatusAndApprove"/>-->
+<!--                        <class name="com.hhstechgroup.tests.SouthDakota.Regression.SetFloridaMedicaidProviderIdStatus"/>-->
+<!--                        <class name="com.hhstechgroup.tests.SouthDakota.Regression.FloridaMedicaid.FloridaMedicaidProviderForMCOProvider"/>-->
+<!--                        <class name="com.hhstechgroup.tests.SouthDakota.Regression.ProviderIndicators.ProviderIndicatorTest"/>-->
+        </classes>
+    </test>
+
+    <test name="Provider Dashboard Verification ">
+        <classes>
+            <!--                <class name="com.hhstechgroup.tests.SouthDakota.sanity.ProvidersDetails"/>-->
+        </classes>
+    </test>
+
+    <test name="Alternate Identifier Automated Script">
+        <classes>
+<!--            <class name="com.hhstechgroup.tests.SouthDakota.Regression.AlternateIdentifier"/>-->
+        </classes>
+    </test>
+
+    <test name="MCO Internal User Automated Script">
+        <classes>
+<!--                        <class name="com.hhstechgroup.tests.SouthDakota.Regression.AddingMCOFromIU"/>-->
+        </classes>
+    </test>
+
+
+</suite>

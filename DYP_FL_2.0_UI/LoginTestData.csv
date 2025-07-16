@@ -1,0 +1,10 @@
+Environment,Email,Password,URL,ProviderEmailPrefix,ProviderPassword,RegressionEmailPrefix
+SIT,kamilla.holubieva@hhstechgroup.com,BlaBla1234$,https://sit-01.sd.hhstechgroup.com,sd.test.provider,Password1!,regression.test.user
+UAT2,Internal.user.dyp+CD@gmail.com,Internaluser1!,https://sduat2.dyp.cloud,sd.test.provider,Password1!,regression.test.user
+TRAINING,Internal.user.dyp+CD@gmail.com,Internaluser1!,https://sd-training.sd.hhstechgroup.com,sd.test.provider,Password1!,regression.test.user
+UAT,Internal.user.dyp+CD@gmail.com,Internaluser1!,https://sduat.dyp.cloud,sd.test.provider,Password1!,regression.test.user
+SD-crossRef,Internal.user.dyp+CD@gmail.com,Internaluser1!,https://sb-sddev-01.sd.hhstechgroup.com/,tuser7289,Abcd@123,regression.test.user
+FL-crossRef,Internal.user.dyp+CD@gmail.com,Internaluser1!,https://fl-dyp-sb.hhstechgroup.com/,tuser7289,Abcd@123,regression.test.user
+SD-QA,Internal.user.dyp+CD@gmail.com,Internaluser1!,https://dypsd-01.sd.hhstechgroup.com/,tuser7289,Abcd@123,regression.test.user
+FL-QA,Internal.user.dyp+CD@gmail.com,Internaluser1!,https://fl-htgqa-dyp-sb-01.hhstechgroup.com/,provider825,Internaluser1!,regression.test.user
+DYP_2,Internal.user.dyp+CD@gmail.com,Internaluser1!,https://dyp2-sb-dev01.hhstechgroup.com/,provideruser543,Internaluser1!,regression.test.user

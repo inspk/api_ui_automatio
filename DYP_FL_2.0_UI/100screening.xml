@@ -1,0 +1,28 @@
+<MedversantReport creationDate="2018-04-01-06:00" id="MD123" requestedBy="HHS">
+    <Requests>
+        <Request id="783">
+            <EnrollmentData>
+                <NPIType verifiedStatus="true"/>
+                <NPIEnumerationTiming verifiedStatus="true"/>
+                <TIN_FEIN verifiedStatus="true"/>
+                <FirstName verifiedStatus="true"/>
+                <LicenseInvalid verifiedStatus="true"/>
+                <LicenseExpire verifiedStatus="true"/>
+                <LicenseIssuer verifiedStatus="true"/>
+                <Clia verifiedStatus="true"/>
+                <DEA verifiedStatus="true"/>
+                <SSA verifiedStatus="false"/>
+                <LEIE verifiedStatus="true"/>
+                <EPLS verifiedStatus="true"/>
+                <DEX verifiedStatus="true"/>
+                <DEX-MED verifiedStatus="true"/>
+                <HistoricalExclusionRecordFlag verifiedStatus="true"/>
+                <PECOS-Owners verifiedStatus="true"/>
+                <PrimaryBusinessAddress verifiedStatus="true"/>
+                <ProhibitedAddressFlag verifiedStatus="true"/>
+                <MedicareEnrollmentConditionalParticipation verifiedStatus="true"/>
+                <NegativeBalanceFlag verifiedStatus="true"/>
+            </EnrollmentData>
+        </Request>
+    </Requests>
+</MedversantReport>

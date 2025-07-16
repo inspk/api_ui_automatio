@@ -1,0 +1,114 @@
+{
+  "getProviderStatus": {
+    "feature": "Get Provider Status",
+    "description": "Fetches the status of a provider by ID (IU).",
+    "valid": {
+      "providerId": "684a9b6953973767253615f0"
+    },
+    "invalid": {
+      "providerId": ""
+    }
+  },
+  "getApprovedDocuments": {
+    "feature": "Get Approved Documents",
+    "description": "Fetches approved documents for a provider (IU).",
+    "valid": {
+      "providerId": "684a9b6953973767253615f0"
+    },
+    "invalid": {
+      "providerId": "invalid"
+    }
+  },
+  "addSpeciality": {
+    "feature": "Add Speciality",
+    "description": "Adds a speciality to a provider.",
+    "valid": {
+      "providerId": "684a9b6953973767253615f0",
+      "specialityId": "12345"
+    },
+    "invalid": {
+      "providerId": "invalid",
+      "specialityId": ""
+    }
+  },
+  "getContracts": {
+    "feature": "Get Contracts",
+    "description": "Fetches contracts for a provider.",
+    "valid": {
+      "providerId": "684a9b6953973767253615f0"
+    },
+    "invalid": {
+      "providerId": "invalid"
+    }
+  },
+  "fetchCrossWalk": {
+    "feature": "Fetch Cross Walk",
+    "description": "Fetches cross walk data.",
+    "valid": {
+      "providerId": "684a9b6953973767253615f0"
+    },
+    "invalid": {
+      "providerId": "invalid"
+    }
+  },
+  "getPaymentRestrictions": {
+    "feature": "Get Payment Restrictions",
+    "description": "Fetches payment restrictions for a provider.",
+    "valid": {
+      "providerId": "684a9b6953973767253615f0"
+    },
+    "invalid": {
+      "providerId": "invalid"
+    }
+  },
+  "getProviderAffiliationsIuPem": {
+    "feature": "Get Provider Affiliations IU PEM",
+    "description": "Fetches provider affiliations for IU PEM.",
+    "valid": {
+      "providerId": "684a9b6953973767253615f0"
+    },
+    "invalid": {
+      "providerId": "invalid"
+    }
+  },
+  "getProviderHistory": {
+    "feature": "Get Provider History",
+    "description": "Fetches provider history.",
+    "valid": {
+      "providerId": "684a9b6953973767253615f0"
+    },
+    "invalid": {
+      "providerId": "invalid"
+    }
+  },
+  "getProviderLocation": {
+    "feature": "Get Provider Location",
+    "description": "Fetches provider location data.",
+    "valid": {
+      "providerId": "684a9b6953973767253615f0"
+    },
+    "invalid": {
+      "providerId": "invalid"
+    }
+  },
+  "getProviderLocationProviderId": {
+    "feature": "Get Provider Location by Provider ID",
+    "description": "Fetches provider location by provider ID.",
+    "valid": {
+      "providerId": "684a9b6953973767253615f0"
+    },
+    "invalid": {
+      "providerId": "invalid"
+    }
+  },
+  "getTimeline": {
+    "feature": "Get Timeline",
+    "description": "Fetches timeline data for a provider.",
+    "valid": {
+      "providerId": "684a9b6953973767253615f0"
+    },
+    "invalid": {
+      "providerId": "invalid"
+    }
+  }
+} 

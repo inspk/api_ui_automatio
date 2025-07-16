@@ -1,0 +1,14 @@
+{
+  "affiliationConfig": {
+    "feature": "Affiliation Configuration",
+    "description": "Manages affiliation configuration settings.",
+    "valid": {
+      "configId": "config123",
+      "affiliationType": "primary"
+    },
+    "invalid": {
+      "configId": "",
+      "affiliationType": "invalid"
+    }
+  }
+}

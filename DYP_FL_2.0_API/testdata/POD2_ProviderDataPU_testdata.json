@@ -1,0 +1,92 @@
+{
+  "getProviderStatus": {
+    "feature": "Get Provider Status",
+    "description": "Fetches the status of a provider by ID.",
+    "valid": {
+      "providerId": "68554e6c57c2b6676e27180f"
+    },
+    "invalid": {
+      "providerId": ""
+    }
+  },
+  "getApprovedDocuments": {
+    "feature": "Get Approved Documents",
+    "description": "Fetches approved documents for a provider.",
+    "valid": {
+      "providerId": "68554e6c57c2b6676e27180f"
+    },
+    "invalid": {
+      "providerId": "invalid"
+    }
+  },
+  "getServiceLocationNames": {
+    "feature": "Get Service Location Names",
+    "description": "Fetches service location names for a provider.",
+    "valid": {
+      "providerId": "68554e6c57c2b6676e27180f"
+    },
+    "invalid": {
+      "providerId": "invalid"
+    }
+  },
+  "getProviderAffiliations": {
+    "feature": "Get Provider Affiliations",
+    "description": "Fetches provider affiliations.",
+    "valid": {
+      "providerId": "68554e6c57c2b6676e27180f"
+    },
+    "invalid": {
+      "providerId": "invalid"
+    }
+  },
+  "getProviderData": {
+    "feature": "Get Provider Data",
+    "description": "Fetches provider data by ID.",
+    "valid": {
+      "providerId": "a91b8e19-f7c8-4617-b75a-dfbba9c8f1e0"
+    },
+    "invalid": {
+      "providerId": "invalid"
+    }
+  },
+  "getProviderHistory": {
+    "feature": "Get Provider History",
+    "description": "Fetches provider history.",
+    "valid": {
+      "providerId": "68554e6c57c2b6676e27180f"
+    },
+    "invalid": {
+      "providerId": "invalid"
+    }
+  },
+  "sslSearch": {
+    "feature": "SSL Search",
+    "description": "Performs SSL search for providers.",
+    "valid": {
+      "searchTerm": "test"
+    },
+    "invalid": {
+      "searchTerm": ""
+    }
+  },
+  "getTimeline": {
+    "feature": "Get Timeline",
+    "description": "Fetches timeline data for a provider.",
+    "valid": {
+      "providerId": "68554e6c57c2b6676e27180f"
+    },
+    "invalid": {
+      "providerId": "invalid"
+    }
+  },
+  "getEnrollments": {
+    "feature": "Get Enrollments",
+    "description": "Fetches enrollment data for a provider.",
+    "valid": {
+      "providerId": "68554e6c57c2b6676e27180f"
+    },
+    "invalid": {
+      "providerId": "invalid"
+    }
+  }
+} 

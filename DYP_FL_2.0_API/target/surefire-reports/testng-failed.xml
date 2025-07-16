@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="POD2_ProviderDataPU.valid.SSLSearchTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="setup"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="testSSLSearch"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- POD2_ProviderDataPU.valid.SSLSearchTest -->
+      <class name="POD2_ProviderDataPU.invalid.GetServiceLocationNamesNegativeTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="setup"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="testServiceLocationNamesWithInvalidParameters"/>
+        </methods>
+      </class> <!-- POD2_ProviderDataPU.invalid.GetServiceLocationNamesNegativeTest -->
+      <class name="POD2_ProviderDataPU.valid.GetApprovedDocumentsTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="testGetApprovedDocuments"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- POD2_ProviderDataPU.valid.GetApprovedDocumentsTest -->
+      <class name="POD2_ProviderDataPU.invalid.AllProviderStatusNegativeTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="setup"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="testProviderStatusWithInvalidParameters"/>
+        </methods>
+      </class> <!-- POD2_ProviderDataPU.invalid.AllProviderStatusNegativeTest -->
+      <class name="POD3_ProviderDataIU.invalid.ProviderLocationNegativeTest">
+        <methods>
+          <include name="testProviderLocationWithInvalidParameters"/>
+          <include name="cleanupClass"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- POD3_ProviderDataIU.invalid.ProviderLocationNegativeTest -->
+      <class name="POD2_ProviderDataPU.invalid.ProviderAffiliationsNegativeTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="testProviderAffiliationsWithInvalidParameters"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- POD2_ProviderDataPU.invalid.ProviderAffiliationsNegativeTest -->
+      <class name="POD3_ProviderDataIU.valid.GetPaymentRestrictionsTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="testPaymentRestrictions"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- POD3_ProviderDataIU.valid.GetPaymentRestrictionsTest -->
+      <class name="POD2_ProviderDataPU.invalid.ProviderDataNegativeTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="setupClass"/>
+          <include name="testProviderDataWithInvalidParameters"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- POD2_ProviderDataPU.invalid.ProviderDataNegativeTest -->
+      <class name="POD2_ProviderDataPU.valid.ProviderAffiliationsTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="testProviderAffiliations"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- POD2_ProviderDataPU.valid.ProviderAffiliationsTest -->
+      <class name="POD2_ProviderDataPU.valid.TimelineAPITest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="beforeMethod"/>
+          <include name="testTimelineAPI"/>
+        </methods>
+      </class> <!-- POD2_ProviderDataPU.valid.TimelineAPITest -->
+      <class name="POD4_SystemConfiguration.invalid.AffiliationConfigNegativeTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="setupClass"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="testaffiliationConfigWithInvalidParameters"/>
+        </methods>
+      </class> <!-- POD4_SystemConfiguration.invalid.AffiliationConfigNegativeTest -->
+      <class name="POD3_ProviderDataIU.invalid.GetPaymentRestrictionsNegativeTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="testPaymentRestrictionsWithInvalidParameters"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- POD3_ProviderDataIU.invalid.GetPaymentRestrictionsNegativeTest -->
+      <class name="POD3_ProviderDataIU.valid.TimelineTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="testTimeline"/>
+          <include name="setup"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- POD3_ProviderDataIU.valid.TimelineTest -->
+      <class name="POD3_ProviderDataIU.valid.ProviderLocationTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="testProviderLocation"/>
+          <include name="setup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- POD3_ProviderDataIU.valid.ProviderLocationTest -->
+      <class name="POD2_ProviderDataPU.valid.EnrollmentsTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="setup"/>
+          <include name="testEnrollments"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- POD2_ProviderDataPU.valid.EnrollmentsTest -->
+      <class name="POD3_ProviderDataIU.valid.ProviderHistoryTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="testProviderHistory"/>
+          <include name="setupClass"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- POD3_ProviderDataIU.valid.ProviderHistoryTest -->
+      <class name="POD2_ProviderDataPU.invalid.EnrollmentsNegativeTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="setup"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="testEnrollmentsWithInvalidProviderId"/>
+        </methods>
+      </class> <!-- POD2_ProviderDataPU.invalid.EnrollmentsNegativeTest -->
+      <class name="POD3_ProviderDataIU.invalid.FetchCrossWalkNegativeTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="testfetchCrossWalkWithInvalidParameters"/>
+          <include name="setup"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- POD3_ProviderDataIU.invalid.FetchCrossWalkNegativeTest -->
+      <class name="POD3_ProviderDataIU.valid.ProviderLocationProviderIdTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="testProviderLocationProviderId"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- POD3_ProviderDataIU.valid.ProviderLocationProviderIdTest -->
+      <class name="POD4_SystemConfiguration.valid.AffiliationConfigTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="setup"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="testaffiliationConfig"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- POD4_SystemConfiguration.valid.AffiliationConfigTest -->
+      <class name="POD3_ProviderDataIU.invalid.AllProviderStatusNegativeTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="testProviderStatusWithInvalidParameters"/>
+          <include name="setup"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- POD3_ProviderDataIU.invalid.AllProviderStatusNegativeTest -->
+      <class name="POD2_ProviderDataPU.invalid.GetApprovedDocumentsNegativeTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="setup"/>
+          <include name="setupClass"/>
+          <include name="testApprovedDocumentsWithInvalidParameters"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- POD2_ProviderDataPU.invalid.GetApprovedDocumentsNegativeTest -->
+      <class name="POD3_ProviderDataIU.valid.AllProviderStatusTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="testAllProviderStatus"/>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- POD3_ProviderDataIU.valid.AllProviderStatusTest -->
+      <class name="POD3_ProviderDataIU.invalid.ProviderHistoryNegativeTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="testProviderHistoryWithInvalidParameters"/>
+          <include name="setup"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- POD3_ProviderDataIU.invalid.ProviderHistoryNegativeTest -->
+      <class name="POD3_ProviderDataIU.valid.ContractsAPITest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="setupClass"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="testContracts"/>
+        </methods>
+      </class> <!-- POD3_ProviderDataIU.valid.ContractsAPITest -->
+      <class name="POD2_ProviderDataPU.valid.ProviderDataTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="testProviderData"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- POD2_ProviderDataPU.valid.ProviderDataTest -->
+      <class name="POD2_ProviderDataPU.valid.AllProviderStatusTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="setup"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="testAllProviderStatus"/>
+        </methods>
+      </class> <!-- POD2_ProviderDataPU.valid.AllProviderStatusTest -->
+      <class name="POD3_ProviderDataIU.invalid.AddSpecialityNegativeTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="setup"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="testaddSpecialityWithInvalidParameters"/>
+        </methods>
+      </class> <!-- POD3_ProviderDataIU.invalid.AddSpecialityNegativeTest -->
+      <class name="POD3_ProviderDataIU.invalid.ProviderLocationProviderIdNegativeTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="testProviderLocationProviderIdWithInvalidParameters"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- POD3_ProviderDataIU.invalid.ProviderLocationProviderIdNegativeTest -->
+      <class name="POD3_ProviderDataIU.valid.FetchCrossWalkTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="testfetchCrossWalk"/>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- POD3_ProviderDataIU.valid.FetchCrossWalkTest -->
+      <class name="POD3_ProviderDataIU.valid.ProviderAffiliationsIuPemTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="setup"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="testProviderAffiliationsIuPem"/>
+        </methods>
+      </class> <!-- POD3_ProviderDataIU.valid.ProviderAffiliationsIuPemTest -->
+      <class name="POD3_ProviderDataIU.valid.GetApprovedDocumentsTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="setupClass"/>
+          <include name="testApprovedDocuments"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- POD3_ProviderDataIU.valid.GetApprovedDocumentsTest -->
+      <class name="POD3_ProviderDataIU.invalid.ProviderAffiliationsIuPemNegativeTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="testProviderAffiliationsIuPemWithInvalidParameters"/>
+          <include name="setup"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- POD3_ProviderDataIU.invalid.ProviderAffiliationsIuPemNegativeTest -->
+      <class name="POD3_ProviderDataIU.invalid.ContractsAPINegativeTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="setup"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="testContractsWithInvalidParameters"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- POD3_ProviderDataIU.invalid.ContractsAPINegativeTest -->
+      <class name="POD3_ProviderDataIU.invalid.GetApprovedDocumentsNegativeTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="setup"/>
+          <include name="testApprovedDocumentsWithInvalidParameters"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- POD3_ProviderDataIU.invalid.GetApprovedDocumentsNegativeTest -->
+      <class name="POD2_ProviderDataPU.invalid.TimelineAPINegativeTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="setup"/>
+          <include name="testTimelineWithInvalidParameters"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- POD2_ProviderDataPU.invalid.TimelineAPINegativeTest -->
+      <class name="POD2_ProviderDataPU.valid.GetServiceLocationNamesTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="testGetServiceLocationNames"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- POD2_ProviderDataPU.valid.GetServiceLocationNamesTest -->
+      <class name="POD3_ProviderDataIU.valid.AddSpecialityTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="testaddSpeciality"/>
+          <include name="setup"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- POD3_ProviderDataIU.valid.AddSpecialityTest -->
+      <class name="POD2_ProviderDataPU.valid.ProviderHistoryTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="setupClass"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="testProviderHistory"/>
+        </methods>
+      </class> <!-- POD2_ProviderDataPU.valid.ProviderHistoryTest -->
+      <class name="POD3_ProviderDataIU.invalid.TimelineNegativeTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="setup"/>
+          <include name="setupClass"/>
+          <include name="testTimelineWithInvalidParameters"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- POD3_ProviderDataIU.invalid.TimelineNegativeTest -->
+      <class name="POD2_ProviderDataPU.invalid.SSLSearchNegativeTest">
+        <methods>
+          <include name="cleanupClass"/>
+          <include name="testsslSearchWithInvalidParameters"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- POD2_ProviderDataPU.invalid.SSLSearchNegativeTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

@@ -1,0 +1,9 @@
+target/
+.idea/
+*.iml
+*.class
+video/
+reports/
+allure-results/
+src/main/java/com/hhstechgroup/jira/properties/jiraConfigurationFile.properties
+com/hhstechgroup/jira/properties/jiraConfigurationFile.properties

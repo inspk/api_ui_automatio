@@ -1,0 +1,2540 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>DYP FL 2.0 API Test Report - 2025-07-15</title>
+        <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+        <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+	    <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@6fbbd1c32fbc2463d026da5c6ce2e9eef0d29512/spark/css/spark-style.css" rel="stylesheet" />
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style type="text/css">
+
+</style></head>    <script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<body class="spa -report standard">
+    <div class="app header-dark side-nav-folded">
+        <div class="layout">
+<div class="header navbar">
+    <div class="vheader">
+        <div class="nav-logo">
+          <a href="#">
+            <div class="logo logo-dark" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+            <div class="logo logo-white" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+          </a>
+        </div>
+        <ul class="nav-left">
+          <li class="search-box">
+            <a class="search-toggle" href="javascript:void(0);">
+              <i class="search-icon fa fa-search"></i>
+              <i class="search-icon-close fa fa-close"></i>
+            </a>
+          </li>
+          <li class="search-input">
+            <input id="search-tests" class="form-control" type="text" placeholder="Type to search...">
+          </li>
+        </ul>
+        <ul class="nav-right">
+          <li class="m-r-10">
+            <a href="#">
+              <span class="badge badge-primary">API Automation Test Results - 2025-07-15 15-57-59</span>
+            </a>
+          </li>
+            <li class="m-r-10">
+                <a href="#">
+                    <span class="badge badge-primary">2025-07-15 15:57:59</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div><div class="side-nav">
+  <div class="side-nav-inner">
+    <ul class="side-nav-menu scrollable">
+      <li class="nav-item dropdown" onclick="toggleView('test-view')">
+        <a id="nav-test" class="dropdown-toggle" href="index.html">
+          <span class="icon-holder">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span class="title">Tests</span>
+        </a>
+      </li>
+            <li class="nav-item dropdown" onclick="toggleView('tag-view')">
+        <a id="nav-tag" class="dropdown-toggle" href="tag.html">
+          <span class="icon-holder">
+            <i class="fa fa-tag"></i>
+          </span>
+          <span class="title">Tags</span>
+        </a>
+      </li>
+      <li class="nav-item dropdown" onclick="toggleView('exception-view')">
+        <a id="nav-ex" class="dropdown-toggle" href="exception.html">
+          <span class="icon-holder">
+            <i class="fa fa-bug"></i>
+          </span>
+          <span class="title">Exception</span>
+        </a>
+      </li>
+      <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+        <a id="nav-dashboard" class="dropdown-toggle" href="dashboard.html">
+          <span class="icon-holder">
+            <i class="fa fa-bar-chart"></i>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>            <div class="vcontainer">
+                <div class="main-content">
+<div class="test-wrapper row test-view">
+	<div class="test-list">
+		<div class="test-list-tools">
+			<ul class="tools pull-left">
+				<li>
+					<a href="">
+					<span class="font-size-14">Tests</span>
+					</a>
+				</li>
+			</ul>
+			<ul class="tools text-right">
+				<li class="user-profile dropdown dropdown-animated scale-left">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					<i class="fa fa-exclamation-circle"></i>
+					</a>
+					<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+						<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success pull-right"></span></a>
+						<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger pull-right"></span></a>
+						
+						
+						
+						
+						<div class="dropdown-divider"></div>
+						<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+					</ul>
+				</li>
+				<li class="user-profile dropdown dropdown-animated scale-left">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					<i class="fa fa-tag"></i>
+					</a>
+					<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+						<a class="dropdown-item" href="#">com.dyp.base.ComprehensiveAuthTest</a>
+						<a class="dropdown-item" href="#">POD1_Enrollments.valid.TC_01CustomSectionValidate</a>
+						<a class="dropdown-item" href="#">POD1_Enrollments.valid.TC_02AddTaxonomy</a>
+						<a class="dropdown-item" href="#">POD1_Enrollments.valid.TC_03Unapprovedlistpptest</a>
+						<a class="dropdown-item" href="#">POD1_Enrollments.valid.TC_05ApprovedlistppTest</a>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="test-list-wrapper scrollable">
+			<ul class="test-list-item">
+				<li class="test-item"  status="pass" test-id="1"
+					author=""
+					tag="com.dyp.base.ComprehensiveAuthTest"
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">testConfigurationLoadingFromConfigFile</p>
+							<p class="duration text-sm">0h 0m 0s+3ms</p>
+							<span class="datetime">15:58:00 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">testConfigurationLoadingFromConfigFile</h5>
+									<span class='badge badge-success'>07.15.2025 15:58:00</span>
+									<span class='badge badge-danger'>07.15.2025 15:58:00</span>
+									<span class='badge badge-default'>0h 0m 0s+3ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-tag"></i> com.dyp.base.ComprehensiveAuthTest</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:00 PM</td>
+				<td>
+						Test Started: 2025-07-15 15:58:00
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:00 PM</td>
+				<td>
+						Test Class: com.dyp.base.ComprehensiveAuthTest
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:00 PM</td>
+				<td>
+						Test Method: testConfigurationLoadingFromConfigFile
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:00 PM</td>
+				<td>
+						Date: 2025-07-15
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:00 PM</td>
+				<td>
+						Time: 15:58:00
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:00 PM</td>
+				<td>
+						[15:58:00] Testing configuration loading from config file
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>3:58:00 PM</td>
+				<td>
+						[15:58:00] Configuration loading test passed
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:00 PM</td>
+				<td>
+						[15:58:00] Environment: dev01
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:00 PM</td>
+				<td>
+						[15:58:00] Base URL: https://dyp2-sb-dev01.hhstechgroup.com
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:00 PM</td>
+				<td>
+						[15:58:00] Provider User email: auto@sharklasers.com
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:00 PM</td>
+				<td>
+						[15:58:00] Internal User email: internal.user.dyp+cd@gmail.com
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>3:58:00 PM</td>
+				<td>
+						<span class='badge white-text green'> Test passed successfully</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:00 PM</td>
+				<td>
+						Test Duration: 13ms
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:00 PM</td>
+				<td>
+						Test Completed: 2025-07-15 15:58:00
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:00 PM</td>
+				<td>
+						Status: PASSED
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:00 PM</td>
+				<td>
+						Screenshot captured: testConfigurationLoadingFromConfigFile_15-58-00.png
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:00 PM</td>
+				<td>
+						<div style='background-color: #f0f0f0; padding: 20px; border: 1px solid #ccc;'><h4>Screenshot: testConfigurationLoadingFromConfigFile_15-58-00.png</h4><p>Captured at: 15-58-00</p><p>Path: test-output/screenshots/2025-07-15/testConfigurationLoadingFromConfigFile_15-58-00.png</p><div style='background-color: white; padding: 10px; border: 1px solid #ddd;'><p><strong>API Response Screenshot</strong></p><p>This would contain the actual screenshot in a real browser automation scenario.</p></div></div>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="2"
+					author=""
+					tag="com.dyp.base.ComprehensiveAuthTest"
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">testProviderUserAuthentication</p>
+							<p class="duration text-sm">0h 0m 2s+810ms</p>
+							<span class="datetime">15:58:00 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">testProviderUserAuthentication</h5>
+									<span class='badge badge-success'>07.15.2025 15:58:00</span>
+									<span class='badge badge-danger'>07.15.2025 15:58:03</span>
+									<span class='badge badge-default'>0h 0m 2s+810ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-tag"></i> com.dyp.base.ComprehensiveAuthTest</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:00 PM</td>
+				<td>
+						Test Started: 2025-07-15 15:58:00
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:00 PM</td>
+				<td>
+						Test Class: com.dyp.base.ComprehensiveAuthTest
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:00 PM</td>
+				<td>
+						Test Method: testProviderUserAuthentication
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:00 PM</td>
+				<td>
+						Date: 2025-07-15
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:00 PM</td>
+				<td>
+						Time: 15:58:00
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:00 PM</td>
+				<td>
+						[15:58:00] Testing Provider User (PU) authentication
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>3:58:03 PM</td>
+				<td>
+						[15:58:03] Provider User authentication successful
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:03 PM</td>
+				<td>
+						[15:58:03] Provider User token stored in variable: eyJhbGciOiJIUzUxMiJ9...
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>3:58:03 PM</td>
+				<td>
+						<span class='badge white-text green'> Test passed successfully</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:03 PM</td>
+				<td>
+						Test Duration: 2810ms
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:03 PM</td>
+				<td>
+						Test Completed: 2025-07-15 15:58:03
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:03 PM</td>
+				<td>
+						Status: PASSED
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:03 PM</td>
+				<td>
+						Screenshot captured: testProviderUserAuthentication_15-58-03.png
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:03 PM</td>
+				<td>
+						<div style='background-color: #f0f0f0; padding: 20px; border: 1px solid #ccc;'><h4>Screenshot: testProviderUserAuthentication_15-58-03.png</h4><p>Captured at: 15-58-03</p><p>Path: test-output/screenshots/2025-07-15/testProviderUserAuthentication_15-58-03.png</p><div style='background-color: white; padding: 10px; border: 1px solid #ddd;'><p><strong>API Response Screenshot</strong></p><p>This would contain the actual screenshot in a real browser automation scenario.</p></div></div>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="3"
+					author=""
+					tag="com.dyp.base.ComprehensiveAuthTest"
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">testInternalUserAuthentication</p>
+							<p class="duration text-sm">0h 0m 1s+404ms</p>
+							<span class="datetime">15:58:03 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">testInternalUserAuthentication</h5>
+									<span class='badge badge-success'>07.15.2025 15:58:03</span>
+									<span class='badge badge-danger'>07.15.2025 15:58:04</span>
+									<span class='badge badge-default'>0h 0m 1s+404ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-tag"></i> com.dyp.base.ComprehensiveAuthTest</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:03 PM</td>
+				<td>
+						Test Started: 2025-07-15 15:58:03
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:03 PM</td>
+				<td>
+						Test Class: com.dyp.base.ComprehensiveAuthTest
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:03 PM</td>
+				<td>
+						Test Method: testInternalUserAuthentication
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:03 PM</td>
+				<td>
+						Date: 2025-07-15
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:03 PM</td>
+				<td>
+						Time: 15:58:03
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:03 PM</td>
+				<td>
+						[15:58:03] Testing Internal User (IU) authentication
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						[15:58:04] Internal User authentication successful
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						[15:58:04] Internal User token stored in variable: eyJhbGciOiJIUzUxMiJ9...
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						<span class='badge white-text green'> Test passed successfully</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						Test Duration: 1404ms
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						Test Completed: 2025-07-15 15:58:04
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						Status: PASSED
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						Screenshot captured: testInternalUserAuthentication_15-58-04.png
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						<div style='background-color: #f0f0f0; padding: 20px; border: 1px solid #ccc;'><h4>Screenshot: testInternalUserAuthentication_15-58-04.png</h4><p>Captured at: 15-58-04</p><p>Path: test-output/screenshots/2025-07-15/testInternalUserAuthentication_15-58-04.png</p><div style='background-color: white; padding: 10px; border: 1px solid #ddd;'><p><strong>API Response Screenshot</strong></p><p>This would contain the actual screenshot in a real browser automation scenario.</p></div></div>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="4"
+					author=""
+					tag="com.dyp.base.ComprehensiveAuthTest"
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">testStoredTokenValidation</p>
+							<p class="duration text-sm">0h 0m 0s+0ms</p>
+							<span class="datetime">15:58:04 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">testStoredTokenValidation</h5>
+									<span class='badge badge-success'>07.15.2025 15:58:04</span>
+									<span class='badge badge-danger'>07.15.2025 15:58:04</span>
+									<span class='badge badge-default'>0h 0m 0s+0ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-tag"></i> com.dyp.base.ComprehensiveAuthTest</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						Test Started: 2025-07-15 15:58:04
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						Test Class: com.dyp.base.ComprehensiveAuthTest
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						Test Method: testStoredTokenValidation
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						Date: 2025-07-15
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						Time: 15:58:04
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						[15:58:04] Testing stored token validation
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						[15:58:04] Stored token validation passed
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						[15:58:04] Both Provider User and Internal User tokens are valid and ready for use
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						<span class='badge white-text green'> Test passed successfully</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						Test Duration: 0ms
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						Test Completed: 2025-07-15 15:58:04
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						Status: PASSED
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						Screenshot captured: testStoredTokenValidation_15-58-04.png
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						<div style='background-color: #f0f0f0; padding: 20px; border: 1px solid #ccc;'><h4>Screenshot: testStoredTokenValidation_15-58-04.png</h4><p>Captured at: 15-58-04</p><p>Path: test-output/screenshots/2025-07-15/testStoredTokenValidation_15-58-04.png</p><div style='background-color: white; padding: 10px; border: 1px solid #ddd;'><p><strong>API Response Screenshot</strong></p><p>This would contain the actual screenshot in a real browser automation scenario.</p></div></div>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="5"
+					author=""
+					tag="com.dyp.base.ComprehensiveAuthTest"
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">testTokenUsageSimulation</p>
+							<p class="duration text-sm">0h 0m 3s+252ms</p>
+							<span class="datetime">15:58:04 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">testTokenUsageSimulation</h5>
+									<span class='badge badge-success'>07.15.2025 15:58:04</span>
+									<span class='badge badge-danger'>07.15.2025 15:58:08</span>
+									<span class='badge badge-default'>0h 0m 3s+252ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-tag"></i> com.dyp.base.ComprehensiveAuthTest</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						Test Started: 2025-07-15 15:58:04
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						Test Class: com.dyp.base.ComprehensiveAuthTest
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						Test Method: testTokenUsageSimulation
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						Date: 2025-07-15
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						Time: 15:58:04
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:04 PM</td>
+				<td>
+						[15:58:04] Testing token usage simulation
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:06 PM</td>
+				<td>
+						[15:58:06] Provider User token usage simulation successful
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:08 PM</td>
+				<td>
+						[15:58:08] Internal User token usage simulation successful
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>3:58:08 PM</td>
+				<td>
+						[15:58:08] Token usage simulation completed successfully
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>3:58:08 PM</td>
+				<td>
+						<span class='badge white-text green'> Test passed successfully</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:08 PM</td>
+				<td>
+						Test Duration: 3252ms
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:08 PM</td>
+				<td>
+						Test Completed: 2025-07-15 15:58:08
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:08 PM</td>
+				<td>
+						Status: PASSED
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:08 PM</td>
+				<td>
+						Screenshot captured: testTokenUsageSimulation_15-58-08.png
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:08 PM</td>
+				<td>
+						<div style='background-color: #f0f0f0; padding: 20px; border: 1px solid #ccc;'><h4>Screenshot: testTokenUsageSimulation_15-58-08.png</h4><p>Captured at: 15-58-08</p><p>Path: test-output/screenshots/2025-07-15/testTokenUsageSimulation_15-58-08.png</p><div style='background-color: white; padding: 10px; border: 1px solid #ddd;'><p><strong>API Response Screenshot</strong></p><p>This would contain the actual screenshot in a real browser automation scenario.</p></div></div>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="6"
+					author=""
+					tag="com.dyp.base.ComprehensiveAuthTest"
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">testFinalTokenStatusCheck</p>
+							<p class="duration text-sm">0h 0m 3s+706ms</p>
+							<span class="datetime">15:58:08 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">testFinalTokenStatusCheck</h5>
+									<span class='badge badge-success'>07.15.2025 15:58:08</span>
+									<span class='badge badge-danger'>07.15.2025 15:58:11</span>
+									<span class='badge badge-default'>0h 0m 3s+706ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-tag"></i> com.dyp.base.ComprehensiveAuthTest</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:08 PM</td>
+				<td>
+						Test Started: 2025-07-15 15:58:08
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:08 PM</td>
+				<td>
+						Test Class: com.dyp.base.ComprehensiveAuthTest
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:08 PM</td>
+				<td>
+						Test Method: testFinalTokenStatusCheck
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:08 PM</td>
+				<td>
+						Date: 2025-07-15
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:08 PM</td>
+				<td>
+						Time: 15:58:08
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:08 PM</td>
+				<td>
+						[15:58:08] Performing final token status check
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>3:58:11 PM</td>
+				<td>
+						[15:58:11] Final token status check passed
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:11 PM</td>
+				<td>
+						[15:58:11] Both Provider User and Internal User tokens are available and valid
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>3:58:11 PM</td>
+				<td>
+						<span class='badge white-text green'> Test passed successfully</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:11 PM</td>
+				<td>
+						Test Duration: 3706ms
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:11 PM</td>
+				<td>
+						Test Completed: 2025-07-15 15:58:11
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:11 PM</td>
+				<td>
+						Status: PASSED
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:11 PM</td>
+				<td>
+						Screenshot captured: testFinalTokenStatusCheck_15-58-11.png
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:11 PM</td>
+				<td>
+						<div style='background-color: #f0f0f0; padding: 20px; border: 1px solid #ccc;'><h4>Screenshot: testFinalTokenStatusCheck_15-58-11.png</h4><p>Captured at: 15-58-11</p><p>Path: test-output/screenshots/2025-07-15/testFinalTokenStatusCheck_15-58-11.png</p><div style='background-color: white; padding: 10px; border: 1px solid #ddd;'><p><strong>API Response Screenshot</strong></p><p>This would contain the actual screenshot in a real browser automation scenario.</p></div></div>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:11 PM</td>
+				<td>
+						[15:58:11] Comprehensive authentication test cleanup completed (no token cleanup here)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:11 PM</td>
+				<td>
+						[15:58:11] Test class cleanup completed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="7"
+					author=""
+					tag="POD1_Enrollments.valid.TC_01CustomSectionValidate"
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">CustomSectionValidate</p>
+							<p class="duration text-sm">0h 0m 10s+662ms</p>
+							<span class="datetime">15:58:12 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">CustomSectionValidate</h5>
+									<span class='badge badge-success'>07.15.2025 15:58:12</span>
+									<span class='badge badge-danger'>07.15.2025 15:58:22</span>
+									<span class='badge badge-default'>0h 0m 10s+662ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-tag"></i> POD1_Enrollments.valid.TC_01CustomSectionValidate</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:12 PM</td>
+				<td>
+						Test Started: 2025-07-15 15:58:12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:12 PM</td>
+				<td>
+						Test Class: POD1_Enrollments.valid.TC_01CustomSectionValidate
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:12 PM</td>
+				<td>
+						Test Method: CustomSectionValidate
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:12 PM</td>
+				<td>
+						Date: 2025-07-15
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:12 PM</td>
+				<td>
+						Time: 15:58:12
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:12 PM</td>
+				<td>
+						[15:58:12]  User Type: provider
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>3:58:22 PM</td>
+				<td>
+						<span class='badge white-text green'> Test passed successfully</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:22 PM</td>
+				<td>
+						Test Duration: 10662ms
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:22 PM</td>
+				<td>
+						Test Completed: 2025-07-15 15:58:22
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:22 PM</td>
+				<td>
+						Status: PASSED
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:22 PM</td>
+				<td>
+						Screenshot captured: CustomSectionValidate_15-58-22.png
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:22 PM</td>
+				<td>
+						<div style='background-color: #f0f0f0; padding: 20px; border: 1px solid #ccc;'><h4>Screenshot: CustomSectionValidate_15-58-22.png</h4><p>Captured at: 15-58-22</p><p>Path: test-output/screenshots/2025-07-15/CustomSectionValidate_15-58-22.png</p><div style='background-color: white; padding: 10px; border: 1px solid #ddd;'><p><strong>API Response Screenshot</strong></p><p>This would contain the actual screenshot in a real browser automation scenario.</p></div></div>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:22 PM</td>
+				<td>
+						[15:58:22] Test class cleanup completed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="fail" test-id="8"
+					author=""
+					tag="POD1_Enrollments.valid.TC_02AddTaxonomy"
+					device="">
+					<div class="status-avatar fail-bg">
+						<i class="fa fa-times text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">addtaxonomyapi</p>
+							<p class="duration text-sm">0h 0m 12s+553ms</p>
+							<span class="datetime">15:58:22 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-fail">addtaxonomyapi</h5>
+									<span class='badge badge-success'>07.15.2025 15:58:22</span>
+									<span class='badge badge-danger'>07.15.2025 15:58:35</span>
+									<span class='badge badge-default'>0h 0m 12s+553ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-tag"></i> POD1_Enrollments.valid.TC_02AddTaxonomy</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:22 PM</td>
+				<td>
+						Test Started: 2025-07-15 15:58:22
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:22 PM</td>
+				<td>
+						Test Class: POD1_Enrollments.valid.TC_02AddTaxonomy
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:22 PM</td>
+				<td>
+						Test Method: addtaxonomyapi
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:22 PM</td>
+				<td>
+						Date: 2025-07-15
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:22 PM</td>
+				<td>
+						Time: 15:58:22
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:22 PM</td>
+				<td>
+						[15:58:22]  User Type: provider
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>3:58:35 PM</td>
+				<td>
+						<span class='badge white-text red'> Test failed</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:35 PM</td>
+				<td>
+						Test Duration: 12538ms
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:35 PM</td>
+				<td>
+						Test Completed: 2025-07-15 15:58:35
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:35 PM</td>
+				<td>
+						Status: FAILED
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>3:58:35 PM</td>
+				<td>
+						Error Details:
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>3:58:35 PM</td>
+				<td>
+						🔍 Error Message: 1 expectation failed.
+Expected status code <201> but was <500>.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>3:58:35 PM</td>
+				<td>
+						📚 Stack Trace:
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>3:58:35 PM</td>
+				<td>
+						<textarea disabled class="code-block">java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <500>.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at POD1_Enrollments.valid.TC_02AddTaxonomy.addtaxonomyapi(TC_02AddTaxonomy.java:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</textarea>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:35 PM</td>
+				<td>
+						Screenshot captured: addtaxonomyapi_15-58-35.png
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:35 PM</td>
+				<td>
+						<div style='background-color: #f0f0f0; padding: 20px; border: 1px solid #ccc;'><h4>Screenshot: addtaxonomyapi_15-58-35.png</h4><p>Captured at: 15-58-35</p><p>Path: test-output/screenshots/2025-07-15/addtaxonomyapi_15-58-35.png</p><div style='background-color: white; padding: 10px; border: 1px solid #ddd;'><p><strong>API Response Screenshot</strong></p><p>This would contain the actual screenshot in a real browser automation scenario.</p></div></div>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:35 PM</td>
+				<td>
+						[15:58:35] Test class cleanup completed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="fail" test-id="9"
+					author=""
+					tag="POD1_Enrollments.valid.TC_03Unapprovedlistpptest"
+					device="">
+					<div class="status-avatar fail-bg">
+						<i class="fa fa-times text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">testGetProgramParticipationList</p>
+							<p class="duration text-sm">0h 0m 5s+107ms</p>
+							<span class="datetime">15:58:35 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-fail">testGetProgramParticipationList</h5>
+									<span class='badge badge-success'>07.15.2025 15:58:35</span>
+									<span class='badge badge-danger'>07.15.2025 15:58:40</span>
+									<span class='badge badge-default'>0h 0m 5s+107ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-tag"></i> POD1_Enrollments.valid.TC_03Unapprovedlistpptest</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:35 PM</td>
+				<td>
+						Test Started: 2025-07-15 15:58:35
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:35 PM</td>
+				<td>
+						Test Class: POD1_Enrollments.valid.TC_03Unapprovedlistpptest
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:35 PM</td>
+				<td>
+						Test Method: testGetProgramParticipationList
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:35 PM</td>
+				<td>
+						Date: 2025-07-15
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:35 PM</td>
+				<td>
+						Time: 15:58:35
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:35 PM</td>
+				<td>
+						[15:58:35]  User Type: provider
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>3:58:40 PM</td>
+				<td>
+						<span class='badge white-text red'> Test failed</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:40 PM</td>
+				<td>
+						Test Duration: 5089ms
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:40 PM</td>
+				<td>
+						Test Completed: 2025-07-15 15:58:40
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:40 PM</td>
+				<td>
+						Status: FAILED
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>3:58:40 PM</td>
+				<td>
+						Error Details:
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>3:58:40 PM</td>
+				<td>
+						🔍 Error Message: 1 expectation failed.
+Expected status code <200> but was <404>.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>3:58:40 PM</td>
+				<td>
+						📚 Stack Trace:
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>3:58:40 PM</td>
+				<td>
+						<textarea disabled class="code-block">java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at POD1_Enrollments.valid.TC_03Unapprovedlistpptest.testGetProgramParticipationList(TC_03Unapprovedlistpptest.java:45)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</textarea>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:40 PM</td>
+				<td>
+						Screenshot captured: testGetProgramParticipationList_15-58-40.png
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:40 PM</td>
+				<td>
+						<div style='background-color: #f0f0f0; padding: 20px; border: 1px solid #ccc;'><h4>Screenshot: testGetProgramParticipationList_15-58-40.png</h4><p>Captured at: 15-58-40</p><p>Path: test-output/screenshots/2025-07-15/testGetProgramParticipationList_15-58-40.png</p><div style='background-color: white; padding: 10px; border: 1px solid #ddd;'><p><strong>API Response Screenshot</strong></p><p>This would contain the actual screenshot in a real browser automation scenario.</p></div></div>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:40 PM</td>
+				<td>
+						[15:58:40] Test class cleanup completed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="fail" test-id="10"
+					author=""
+					tag="POD1_Enrollments.valid.TC_05ApprovedlistppTest"
+					device="">
+					<div class="status-avatar fail-bg">
+						<i class="fa fa-times text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">testGetProgramParticipationList</p>
+							<p class="duration text-sm">0h 0m 4s+89ms</p>
+							<span class="datetime">15:58:40 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-fail">testGetProgramParticipationList</h5>
+									<span class='badge badge-success'>07.15.2025 15:58:40</span>
+									<span class='badge badge-danger'>07.15.2025 15:58:44</span>
+									<span class='badge badge-default'>0h 0m 4s+89ms</span>
+								</div>
+								<div class="m-t-15">
+			<span class="badge badge-pill badge-default"><i class="fa fa-tag"></i> POD1_Enrollments.valid.TC_05ApprovedlistppTest</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:40 PM</td>
+				<td>
+						Test Started: 2025-07-15 15:58:40
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:40 PM</td>
+				<td>
+						Test Class: POD1_Enrollments.valid.TC_05ApprovedlistppTest
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:40 PM</td>
+				<td>
+						Test Method: testGetProgramParticipationList
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:40 PM</td>
+				<td>
+						Date: 2025-07-15
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:40 PM</td>
+				<td>
+						Time: 15:58:40
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:40 PM</td>
+				<td>
+						[15:58:40]  User Type: provider
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>3:58:44 PM</td>
+				<td>
+						<span class='badge white-text red'> Test failed</span>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:44 PM</td>
+				<td>
+						Test Duration: 4073ms
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:44 PM</td>
+				<td>
+						Test Completed: 2025-07-15 15:58:44
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:44 PM</td>
+				<td>
+						Status: FAILED
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>3:58:44 PM</td>
+				<td>
+						Error Details:
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>3:58:44 PM</td>
+				<td>
+						🔍 Error Message: 1 expectation failed.
+Expected status code <200> but was <500>.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>3:58:44 PM</td>
+				<td>
+						📚 Stack Trace:
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>3:58:44 PM</td>
+				<td>
+						<textarea disabled class="code-block">java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <500>.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at POD1_Enrollments.valid.TC_05ApprovedlistppTest.testGetProgramParticipationList(TC_05ApprovedlistppTest.java:45)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</textarea>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:44 PM</td>
+				<td>
+						Screenshot captured: testGetProgramParticipationList_15-58-44.png
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:44 PM</td>
+				<td>
+						<div style='background-color: #f0f0f0; padding: 20px; border: 1px solid #ccc;'><h4>Screenshot: testGetProgramParticipationList_15-58-44.png</h4><p>Captured at: 15-58-44</p><p>Path: test-output/screenshots/2025-07-15/testGetProgramParticipationList_15-58-44.png</p><div style='background-color: white; padding: 10px; border: 1px solid #ddd;'><p><strong>API Response Screenshot</strong></p><p>This would contain the actual screenshot in a real browser automation scenario.</p></div></div>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>3:58:44 PM</td>
+				<td>
+						[15:58:44] Test class cleanup completed
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="test-content scrollable">
+		<div class="test-content-tools">
+			<ul>
+				<li>
+					<a class="back-to-test" href="javascript:void(0)">
+					<i class="fa fa-arrow-left"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="test-content-detail">
+			<div class="detail-body"></div>
+		</div>
+	</div>
+</div><div class="test-wrapper row tag-view attributes-view">
+	<div class="test-list">
+		<div class="test-list-tools">
+			<ul class="tools pull-left">
+				<li>
+					<a href="">
+					<span class="font-size-14">Tags</span>
+					</a>
+				</li>
+			</ul>
+			<ul class="tools text-right">
+				<li>
+					<a href="#">
+					<span class="badge badge-primary">5</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="test-list-wrapper scrollable">
+			<ul class="test-list-item">
+				<li class="test-item">
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">com.dyp.base.ComprehensiveAuthTest</p>
+							<p class="duration text-sm">6 tests</p>
+							<span class="datetime">
+							<span class='badge badge-success'>6</span>
+							
+							
+							
+							</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="info">
+							<h4>com.dyp.base.ComprehensiveAuthTest</h4>
+							<span status="pass" class='badge badge-success'>6 passed</span>
+							
+							
+							
+						</div>
+						<table class='table table-sm mt-4'>
+							<thead>
+								<tr>
+									<th class="status-col">Status</th>
+									<th class="timestamp-col">Timestamp</th>
+									<th>TestName</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="tag-test-status" status="pass">
+									<td>
+										<div class='status-avatar pass-bg'>
+											<i class="fa fa-check text-white"></i>
+										</div>
+									</td>
+									<td>15:58:00 PM</td>
+									<td class='linked' test-id='1'>
+										testConfigurationLoadingFromConfigFile
+									</td>
+								</tr>
+								<tr class="tag-test-status" status="pass">
+									<td>
+										<div class='status-avatar pass-bg'>
+											<i class="fa fa-check text-white"></i>
+										</div>
+									</td>
+									<td>15:58:00 PM</td>
+									<td class='linked' test-id='2'>
+										testProviderUserAuthentication
+									</td>
+								</tr>
+								<tr class="tag-test-status" status="pass">
+									<td>
+										<div class='status-avatar pass-bg'>
+											<i class="fa fa-check text-white"></i>
+										</div>
+									</td>
+									<td>15:58:03 PM</td>
+									<td class='linked' test-id='3'>
+										testInternalUserAuthentication
+									</td>
+								</tr>
+								<tr class="tag-test-status" status="pass">
+									<td>
+										<div class='status-avatar pass-bg'>
+											<i class="fa fa-check text-white"></i>
+										</div>
+									</td>
+									<td>15:58:04 PM</td>
+									<td class='linked' test-id='4'>
+										testStoredTokenValidation
+									</td>
+								</tr>
+								<tr class="tag-test-status" status="pass">
+									<td>
+										<div class='status-avatar pass-bg'>
+											<i class="fa fa-check text-white"></i>
+										</div>
+									</td>
+									<td>15:58:04 PM</td>
+									<td class='linked' test-id='5'>
+										testTokenUsageSimulation
+									</td>
+								</tr>
+								<tr class="tag-test-status" status="pass">
+									<td>
+										<div class='status-avatar pass-bg'>
+											<i class="fa fa-check text-white"></i>
+										</div>
+									</td>
+									<td>15:58:08 PM</td>
+									<td class='linked' test-id='6'>
+										testFinalTokenStatusCheck
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</li>
+				<li class="test-item">
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">POD1_Enrollments.valid.TC_01CustomSectionValidate</p>
+							<p class="duration text-sm">1 tests</p>
+							<span class="datetime">
+							<span class='badge badge-success'>1</span>
+							
+							
+							
+							</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="info">
+							<h4>POD1_Enrollments.valid.TC_01CustomSectionValidate</h4>
+							<span status="pass" class='badge badge-success'>1 passed</span>
+							
+							
+							
+						</div>
+						<table class='table table-sm mt-4'>
+							<thead>
+								<tr>
+									<th class="status-col">Status</th>
+									<th class="timestamp-col">Timestamp</th>
+									<th>TestName</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="tag-test-status" status="pass">
+									<td>
+										<div class='status-avatar pass-bg'>
+											<i class="fa fa-check text-white"></i>
+										</div>
+									</td>
+									<td>15:58:12 PM</td>
+									<td class='linked' test-id='7'>
+										CustomSectionValidate
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</li>
+				<li class="test-item">
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">POD1_Enrollments.valid.TC_02AddTaxonomy</p>
+							<p class="duration text-sm">1 tests</p>
+							<span class="datetime">
+							
+							<span class='badge badge-danger'>1</span>
+							
+							
+							</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="info">
+							<h4>POD1_Enrollments.valid.TC_02AddTaxonomy</h4>
+							
+							<span status="fail" class='badge badge-danger'>1 failed</span>
+							
+							
+						</div>
+						<table class='table table-sm mt-4'>
+							<thead>
+								<tr>
+									<th class="status-col">Status</th>
+									<th class="timestamp-col">Timestamp</th>
+									<th>TestName</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="tag-test-status" status="fail">
+									<td>
+										<div class='status-avatar fail-bg'>
+											<i class="fa fa-times text-white"></i>
+										</div>
+									</td>
+									<td>15:58:22 PM</td>
+									<td class='linked' test-id='8'>
+										addtaxonomyapi
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</li>
+				<li class="test-item">
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">POD1_Enrollments.valid.TC_03Unapprovedlistpptest</p>
+							<p class="duration text-sm">1 tests</p>
+							<span class="datetime">
+							
+							<span class='badge badge-danger'>1</span>
+							
+							
+							</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="info">
+							<h4>POD1_Enrollments.valid.TC_03Unapprovedlistpptest</h4>
+							
+							<span status="fail" class='badge badge-danger'>1 failed</span>
+							
+							
+						</div>
+						<table class='table table-sm mt-4'>
+							<thead>
+								<tr>
+									<th class="status-col">Status</th>
+									<th class="timestamp-col">Timestamp</th>
+									<th>TestName</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="tag-test-status" status="fail">
+									<td>
+										<div class='status-avatar fail-bg'>
+											<i class="fa fa-times text-white"></i>
+										</div>
+									</td>
+									<td>15:58:35 PM</td>
+									<td class='linked' test-id='9'>
+										testGetProgramParticipationList
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</li>
+				<li class="test-item">
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">POD1_Enrollments.valid.TC_05ApprovedlistppTest</p>
+							<p class="duration text-sm">1 tests</p>
+							<span class="datetime">
+							
+							<span class='badge badge-danger'>1</span>
+							
+							
+							</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="info">
+							<h4>POD1_Enrollments.valid.TC_05ApprovedlistppTest</h4>
+							
+							<span status="fail" class='badge badge-danger'>1 failed</span>
+							
+							
+						</div>
+						<table class='table table-sm mt-4'>
+							<thead>
+								<tr>
+									<th class="status-col">Status</th>
+									<th class="timestamp-col">Timestamp</th>
+									<th>TestName</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="tag-test-status" status="fail">
+									<td>
+										<div class='status-avatar fail-bg'>
+											<i class="fa fa-times text-white"></i>
+										</div>
+									</td>
+									<td>15:58:40 PM</td>
+									<td class='linked' test-id='10'>
+										testGetProgramParticipationList
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="test-content scrollable">
+		<div class="test-content-tools">
+			<ul>
+				<li>
+					<a class="back-to-test" href="javascript:void(0)">
+					<i class="fa fa-arrow-left"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="test-content-detail">
+			<div class="detail-body"></div>
+		</div>
+	</div>
+</div><div class="test-wrapper row exception-view attributes-view">
+	<div class="test-list">
+		<div class="test-list-tools">
+			<ul class="tools pull-left">
+				<li>
+					<a href="">
+					<span class="font-size-14">Exception</span>
+					</a>
+				</li>
+			</ul>
+			<ul class="tools text-right">
+				<li>
+					<a href="#">
+					<span class="badge badge-primary">1</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="test-list-wrapper scrollable">
+			<ul class="test-list-item">
+				<li class="test-item">
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">java.lang.AssertionError</p>
+							<p class="duration text-sm">3 tests</p>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="info">
+							<h4>java.lang.AssertionError</h4>
+						</div>
+						<table class='table table-sm mt-4'>
+							<thead>
+								<tr>
+									<th class="status-col">Status</th>
+									<th class="timestamp-col">Timestamp</th>
+									<th>TestName</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<div class='status-avatar fail-bg'>
+											<i class="fa fa-times text-white"></i>
+										</div>
+									</td>
+									<td>15:58:22 PM</td>
+									<td class='linked' test-id='8'>
+										addtaxonomyapi
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class='status-avatar fail-bg'>
+											<i class="fa fa-times text-white"></i>
+										</div>
+									</td>
+									<td>15:58:35 PM</td>
+									<td class='linked' test-id='9'>
+										testGetProgramParticipationList
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class='status-avatar fail-bg'>
+											<i class="fa fa-times text-white"></i>
+										</div>
+									</td>
+									<td>15:58:40 PM</td>
+									<td class='linked' test-id='10'>
+										testGetProgramParticipationList
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="test-content scrollable">
+		<div class="test-content-tools">
+			<ul>
+				<li>
+					<a class="back-to-test" href="javascript:void(0)">
+					<i class="fa fa-arrow-left"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="test-content-detail">
+			<div class="detail-body"></div>
+		</div>
+	</div>
+</div>                    <!-- dashboard -->
+<div class="container-fluid p-4 dashboard-view">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Tests</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id='parent-analysis' width='115' height='90'></canvas>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div><small data-tooltip='70%'>
+						<b>7</b> tests passed
+						</small>
+					</div>
+					<div>
+						<small data-tooltip='30%'><b>3</b> tests failed, 
+						<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Log events</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id='events-analysis' width='115' height='90'></canvas>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div><small data-tooltip='8.442%'><b>13</b> events passed</small></div>
+					<div>
+						<small data-tooltip='9.74%'><b>15</b> events failed, 
+						<b data-tooltip='81.818%'>126</b> others
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Tests</h6>
+							<h2 class="font-size-28 font-weight-light mt-3">10</h2>
+							<span class="text-semibold text-success font-size-15">
+							<i class="ti-arrow-up font-size-11"></i> 
+							<span>70.00%</span>
+							</span>
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-align-left font-size-70 opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Start</h6>
+							<h4 class="font-weight-light mt-4">2025-07-15 15:57:59</h4>
+							<span class="text-semibold text-success font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 text-success opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Duration</h6>
+							<h4 class="font-weight-light mt-4">0h 0m 44s+721ms</h4>
+							<span class="text-semibold font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Timeline</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id="timeline" height="120"></canvas>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Tags</h6>
+				</div>
+				<div class="table-overflow">
+					<table class="table table-sm">
+						<thead>
+							<tr class="bg-gray">
+								<th>Name</th>
+								<th>Passed</th>
+								<th>Failed</th>
+								<th>Skipped</th>
+								<th>Others</th>
+								<th>Passed %</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>com.dyp.base.ComprehensiveAuthTest</td>
+								<td>6</td>
+								<td>0</td>
+								<td>0</td>
+								<td>0</td>
+								<td>
+									100%
+								</td>
+							</tr>
+							<tr>
+								<td>POD1_Enrollments.valid.TC_01CustomSectionValidate</td>
+								<td>1</td>
+								<td>0</td>
+								<td>0</td>
+								<td>0</td>
+								<td>
+									100%
+								</td>
+							</tr>
+							<tr>
+								<td>POD1_Enrollments.valid.TC_02AddTaxonomy</td>
+								<td>0</td>
+								<td>1</td>
+								<td>0</td>
+								<td>0</td>
+								<td>
+									0%
+								</td>
+							</tr>
+							<tr>
+								<td>POD1_Enrollments.valid.TC_03Unapprovedlistpptest</td>
+								<td>0</td>
+								<td>1</td>
+								<td>0</td>
+								<td>0</td>
+								<td>
+									0%
+								</td>
+							</tr>
+							<tr>
+								<td>POD1_Enrollments.valid.TC_05ApprovedlistppTest</td>
+								<td>0</td>
+								<td>1</td>
+								<td>0</td>
+								<td>0</td>
+								<td>
+									0%
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Environment</h6>
+				</div>
+				<div class="table-overflow">
+					<table class="table table-sm">
+						<thead>
+							<tr class="bg-gray">
+								<th>Name</th>
+								<th>Value</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>OS</td>
+								<td>Windows 11 10.0</td>
+							</tr>
+							<tr>
+								<td>Java Version</td>
+								<td>23</td>
+							</tr>
+							<tr>
+								<td>User</td>
+								<td>Tejaswi</td>
+							</tr>
+							<tr>
+								<td>Environment</td>
+								<td>dev01</td>
+							</tr>
+							<tr>
+								<td>Test Date</td>
+								<td>2025-07-15</td>
+							</tr>
+							<tr>
+								<td>Test Time</td>
+								<td>15-57-59</td>
+							</tr>
+							<tr>
+								<td>Report Generated</td>
+								<td>2025-07-15 15:57:59</td>
+							</tr>
+							<tr>
+								<td>Framework</td>
+								<td>DYP FL 2.0 API Automation</td>
+							</tr>
+							<tr>
+								<td>Browser</td>
+								<td>REST Assured</td>
+							</tr>
+							<tr>
+								<td>Test Tool</td>
+								<td>TestNG + ExtentReports</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	var statusGroup = {
+	    parentCount: 10,
+		passParent: 7,
+		failParent: 3,
+		fatalParent: 0,
+		errorParent: 0,
+		warningParent: 0,
+		skipParent: 0,
+		exceptionsParent: 3,
+		childCount: 0,
+		passChild: 0,
+		failChild: 0,
+		fatalChild: 0,
+		errorChild: 0,
+		warningChild: 0,
+		skipChild: 0,
+		infoChild: 0,
+		debugChild: 0,
+		exceptionsChild: 0,
+		grandChildCount: 0,
+		passGrandChild: 0,
+		failGrandChild: 0,
+		fatalGrandChild: 0,
+		errorGrandChild: 0,
+		warningGrandChild: 0,
+		skipGrandChild: 0,
+		infoGrandChild: 0,
+		debugGrandChild: 0,
+		exceptionsGrandChild: 0,
+		eventsCount: 154,
+		passEvents: 13,
+		failEvents: 15,
+		fatalEvents: 0,
+		errorEvents: 0,
+		warningEvents: 0,
+		skipEvents: 0,
+		infoEvents: 126,
+		debugEvents: 0,
+		exceptionsEvents: 0
+	};
+</script>
+<script>
+	var timeline = {
+	        "testConfigurationLoadingFromConfigFile":0.003,"testProviderUserAuthentication":2.81,"testInternalUserAuthentication":1.404,"testStoredTokenValidation":0,"testTokenUsageSimulation":3.252,"testFinalTokenStatusCheck":3.706,"CustomSectionValidate":10.662,"addtaxonomyapi":12.553,"testGetProgramParticipationList":5.107,"testGetProgramParticipationList":4.089
+	};
+</script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ac7abbc71b4bb073da00153a5a3fdbcfe0c95e2a/spark/js/spark-script.js"></script>
+<script type="text/javascript">
+
+
+</script></body>
+</html>

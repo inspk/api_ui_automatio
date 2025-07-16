@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="DYP_FL_2.0 Suite">
+    <listeners>
+        <listener class-name="com.dyp.base.ExtentTestListener"/>
+    </listeners>
+
+    <!-- Comprehensive Authentication Test - Runs First -->
+    <test name="ComprehensiveAuthenticationTest">
+        <classes>
+            <class name="com.dyp.base.ComprehensiveAuthTest"/>
+        </classes>
+    </test>
+
+<!--    &lt;!&ndash; POD2_ProviderDataPU &ndash;&gt;-->
+<!--    <test name="POD2_ProviderDataPU">-->
+<!--        <classes>-->
+<!--            <class name="POD2_ProviderDataPU.valid.AllProviderStatusTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    &lt;!&ndash; POD3_ProviderDataIU &ndash;&gt;-->
+<!--    <test name="POD3_ProviderDataIU">-->
+<!--        <classes>-->
+<!--            <class name="POD3_ProviderDataIU.valid.AllProviderStatusTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    &lt;!&ndash; POD4_SystemConfiguration &ndash;&gt;-->
+<!--    <test name="POD4_SystemConfiguration">-->
+<!--        <classes>-->
+<!--            <class name="POD4_SystemConfiguration.valid.AffiliationConfigTest"/>-->
+<!--            <class name="POD4_SystemConfiguration.invalid.AffiliationConfigNegativeTest"/>-->
+
+<!--&lt;!&ndash;            &lt;!&ndash; Authtoken clean up test&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.dyp.base.AuthTokenCleanupTest"/>&ndash;&gt;-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <!-- POD1_Enrollments -->
+
+    <test name="POD1_Enrollments">
+        <packages>
+            <package name="POD1_Enrollments.valid"/>
+            <package name="POD1_Enrollments.invalid"/>
+        </packages>
+    </test>
+
+</suite> 

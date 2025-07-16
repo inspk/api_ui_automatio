@@ -1,0 +1,37 @@
+{
+  "enrollmentType": "individual",
+  "runtimeId": "5fb41cd-54d6-4bf-845c-ehf7y1066",
+  "providerExternalId": "4000040",
+  "mailId": "auto^@sharklasers.com",
+  "slId": 0,
+  "isCoc": false,
+  "taxonomyDetailsInfo": {
+    "id": "36b96c88-a8de-4d27-ab9d-cbacaccd1001",
+    "taxonomy": "207QS1201X - FAMILY MEDICINE - SLEEP MEDICINE",
+    "specialty": "FAMILY PRACTICE - 009",
+    "providerType": "PHYSICIAN (D.O.) - 26",
+    "pp": "Medicaid FFS",
+    "effectiveStartDate": "2025-07-15T00:00:00.000Z",
+    "effectiveEndDate": "",
+    "licenseList": [
+      {
+        "licenseType": "DEA",
+        "issuer": "Florida",
+        "licenseNo": "76545678",
+        "effectiveStartDate": "2025-07-15T00:00:00.000Z",
+        "effectiveEndDate": "2025-07-31T00:00:00.000Z",
+        "licenseAttachments": [
+          {
+            "id": "ee06d648566e8cb21f230a8fb5014472",
+            "name": "Screenshot 2025-06-17 124651.png",
+            "length": 52883,
+            "author": "Test s",
+            "uploadDate": "2025-07-15T08:27:36.109549Z"
+          }
+        ],
+        "id": "9c6f75bb-a008-4c6b-b38a-9dffcd033de9"
+      }
+    ],
+    "isSNPIAllowed": false
+  }
+}
